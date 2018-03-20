@@ -22,3 +22,34 @@ module.exports.registerClient = function(data){
         });
     });
 };
+
+
+module.exports.doesEmailExist = function(email){
+    return new Promise((resolve, reject)=>{
+        model.findOne({'email': email}, (err, client)=>{
+            if(err){
+                winston.error('error in client model doesEmailExist ' + err);
+                reject('There is some internal error');
+            }
+            else{
+                winston.info('found client with email id  ' +  email);
+                if(isEmptyObject(client) === true){
+                    resolve(false);
+                }
+                else{
+                    resolve(true);
+                }
+            }
+        })
+    });
+}
+
+
+
+
+function isEmptyObject(objectInput) {
+    for ( name in objectInput){
+      return false;
+    }
+    return true;
+}

@@ -4,3 +4,108 @@
 {"level":"info","message":"client schema successfully indexed","timestamp":1521560749257}
 {"level":"info","message":"connected to database","timestamp":1521561366554}
 {"level":"info","message":"client schema successfully indexed","timestamp":1521561367133}
+{"level":"info","message":"connected to database","timestamp":1521564265553}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521564266107}
+{"level":"info","message":"connected to database","timestamp":1521564334274}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521564334854}
+{"level":"info","message":"connected to database","timestamp":1521564343435}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521564344009}
+{"level":"info","message":"connected to database","timestamp":1521564365996}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521564366591}
+{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521564395214}
+{"level":"info","message":"error in registering user in registeruser.js ValidationError: password: Path `password` is required.","timestamp":1521564395233}
+{"message":"clients validation failed: password: Path `password` is required.","errors":{"password":{"message":"Path `password` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"password","value":""},"kind":"required","path":"password","value":"","$isValidatorError":true}},"_message":"clients validation failed","stack":"ValidationError: clients validation failed: password: Path `password` is required.\n    at new ValidationError (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Document.invalidate (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongoose\\lib\\document.js:1751:32)\n    at C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongoose\\lib\\document.js:1623:17\n    at C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongoose\\lib\\schematype.js:808:9\n    at process._tickCallback (internal/process/next_tick.js:150:11)","name":"ValidationError","level":"info","timestamp":1521564395235}
+{"level":"info","message":"connected to database","timestamp":1521564485656}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521564486228}
+{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521564495126}
+{"level":"info","message":"error in registering user in registeruser.js WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error index: juyrna.clients.$email_1 dup key: { : \\\"mita@gmail.com\\\" }\",\"op\":{\"_id\":\"5ab13b4f35c80c2f582fc04c\",\"name\":\"mita\",\"email\":\"mita@gmail.com\",\"password\":\"password\",\"__v\":0}})","timestamp":1521564496452}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: juyrna.clients.$email_1 dup key: { : \"mita@gmail.com\" }","op":{"_id":"5ab13b4f35c80c2f582fc04c","name":"mita","email":"mita@gmail.com","password":"password","__v":0}}
+{"level":"info","message":"connected to database","timestamp":1521564551841}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521564552437}
+{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521564559295}
+{"level":"info","message":"error in registering user in registeruser.js WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error index: juyrna.clients.$email_1 dup key: { : \\\"mita@gmail.com\\\" }\",\"op\":{\"_id\":\"5ab13b8f26a5223398879b6f\",\"name\":\"mita\",\"email\":\"mita@gmail.com\",\"password\":\"password\",\"__v\":0}})","timestamp":1521564559643}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: juyrna.clients.$email_1 dup key: { : \"mita@gmail.com\" }","op":{"_id":"5ab13b8f26a5223398879b6f","name":"mita","email":"mita@gmail.com","password":"password","__v":0}}
+{"level":"info","message":"connected to database","timestamp":1521564638481}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521564639080}
+{"level":"info","message":"connected to database","timestamp":1521564649409}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521564649964}
+{"level":"info","message":"connected to database","timestamp":1521564667625}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521564668196}
+{"level":"info","message":"connected to database","timestamp":1521564706653}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521564707207}
+{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521564711924}
+{"level":"info","message":"error in registering user in registeruser.js WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error index: juyrna.clients.$email_1 dup key: { : \\\"mita@gmail.com\\\" }\",\"op\":{\"_id\":\"5ab13c27347f7827e0da9833\",\"name\":\"mita\",\"email\":\"mita@gmail.com\",\"password\":\"password\",\"__v\":0}})","timestamp":1521564712232}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: juyrna.clients.$email_1 dup key: { : \"mita@gmail.com\" }","op":{"_id":"5ab13c27347f7827e0da9833","name":"mita","email":"mita@gmail.com","password":"password","__v":0}}
+{"level":"info","message":"connected to database","timestamp":1521564731373}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521564731971}
+{"level":"info","message":"connected to database","timestamp":1521564744600}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521564745197}
+{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521564753585}
+{"level":"error","message":"There is some error in the register user.js Email alredy exists","timestamp":1521564753587}
+{"level":"info","message":"connected to database","timestamp":1521564783920}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521564784482}
+{"level":"info","message":"connected to database","timestamp":1521564799851}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521564800407}
+{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521564807434}
+{"level":"error","message":"There is some error in the register user.js Email alredy exists","timestamp":1521564807436}
+{"level":"info","message":"found client with email id  mita1@gmail.com","timestamp":1521564815466}
+{"$__":{"strictMode":true,"inserting":true,"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":177,"2":60,"3":143,"4":195,"5":54,"6":29,"7":30,"8":104,"9":255,"10":109,"11":234}},"wasPopulated":false,"activePaths":{"paths":{"password":"require","email":"require","name":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"password":true,"email":true,"name":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"_id":{"$ref":"$[\"$__\"][\"_id\"]"},"name":"mita","email":"mita1@gmail.com","password":"pass","__v":0},"level":"info","message":"","timestamp":1521564815761}
+{"level":"info","message":"connected to database","timestamp":1521564930323}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521564930905}
+{"level":"error","message":"disconnected from database","timestamp":1521565109813}
+{"level":"info","message":"connected to database","timestamp":1521565112134}
+{"level":"info","message":"connected to database","timestamp":1521565128566}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521565129134}
+{"level":"info","message":"connected to database","timestamp":1521565282511}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521565283078}
+{"level":"info","message":"connected to database","timestamp":1521565318553}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521565319125}
+{"level":"error","message":"disconnected from database","timestamp":1521565392726}
+{"level":"info","message":"connected to database","timestamp":1521565497411}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521565498017}
+{"level":"info","message":"connected to database","timestamp":1521565588970}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521565589533}
+{"level":"info","message":"connected to database","timestamp":1521565726009}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521565726590}
+{"level":"info","message":"connected to database","timestamp":1521565775674}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521565776282}
+{"level":"info","message":"connected to database","timestamp":1521565892525}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521565893114}
+{"level":"info","message":"found client with email id  bishoatiem@gmail.com","timestamp":1521565904946}
+{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521565914975}
+{"level":"info","message":"connected to database","timestamp":1521565945619}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521565947107}
+{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521565947131}
+{"level":"info","message":"found client with email id  mitaq@gmail.com","timestamp":1521565952881}
+{"level":"info","message":"found client with email id  mitaq@gmail.com","timestamp":1521565971490}
+{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521566023549}
+{"level":"info","message":"error in registering user in registeruser.js WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error index: juyrna.clients.$email_1 dup key: { : \\\"mita@gmail.com\\\" }\",\"op\":{\"_id\":\"5ab14147899dbb153cd85b4c\",\"name\":\"mita\",\"email\":\"mita@gmail.com\",\"password\":\"aaa\",\"__v\":0}})","timestamp":1521566023869}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: juyrna.clients.$email_1 dup key: { : \"mita@gmail.com\" }","op":{"_id":"5ab14147899dbb153cd85b4c","name":"mita","email":"mita@gmail.com","password":"aaa","__v":0}}
+{"level":"info","message":"connected to database","timestamp":1521566148862}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521566149437}
+{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521566150801}
+{"level":"info","message":"found client with email id  mit1a@gmail.comfsfd","timestamp":1521566160014}
+{"level":"info","message":"found client with email id  mit1a@gmail.comfsfd","timestamp":1521566163528}
+{"level":"info","message":"found client with email id  mit1aqq@gmail.comfsfd","timestamp":1521566195145}
+{"level":"info","message":"connected to database","timestamp":1521566225822}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521566226404}
+{"level":"info","message":"connected to database","timestamp":1521566233798}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521566234373}
+{"level":"info","message":"found client with email id  mi2t1aqq@gmail.comfsfd","timestamp":1521566275947}
+{"$__":{"strictMode":true,"inserting":true,"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":177,"2":66,"3":67,"4":1,"5":83,"6":78,"7":33,"8":0,"9":249,"10":133,"11":126}},"wasPopulated":false,"activePaths":{"paths":{"password":"require","email":"require","name":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"password":true,"email":true,"name":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"_id":{"$ref":"$[\"$__\"][\"_id\"]"},"name":"mita","email":"mi2t1aqq@gmail.comfsfd","password":"xx","__v":0},"level":"info","message":"","timestamp":1521566276278}
+{"level":"info","message":"found client with email id  mi2t1aqq@gmail.comfsfd","timestamp":1521566281409}
+{"level":"info","message":"found client with email id  sfsadfasd@gmail.com","timestamp":1521566294235}
+{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521566304838}
+{"level":"info","message":"connected to database","timestamp":1521566333936}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521566334519}
+{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521566336249}
+{"level":"info","message":"found client with email id  misdfsafta@gmail.com","timestamp":1521566341788}
+{"level":"info","message":"connected to database","timestamp":1521566550842}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521566551409}
+{"level":"info","message":"connected to database","timestamp":1521566573118}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521566573714}
+{"level":"info","message":"connected to database","timestamp":1521566582370}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521566582947}
+{"level":"info","message":"connected to database","timestamp":1521566597075}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521566597664}
+{"level":"error","message":"disconnected from database","timestamp":1521566612792}
