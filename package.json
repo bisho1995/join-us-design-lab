@@ -1,0 +1,23 @@
+{
+  "name": "join-us-you-are-not-alone",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bisho1995/join-us-design-lab.git"
+  },
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": ""
+  },
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "compression": "1.7.2",
+    "cookie-parser": "1.4.3",
+    "debug": "2.6.9",
+    "express": "4.15.5",
+    "morgan": "1.9.0",
+    "pug": "2.0.0-beta11",
+    "serve-favicon": "2.4.5"
+  }
+}
