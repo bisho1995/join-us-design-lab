@@ -1,6 +1,8 @@
 var connection = require('../../db');
 var model = require('./clientSchema');
 
+var winston = require('../../../shared/logger');
+
 
 module.exports.registerClient = function(data){
     return new Promise((resolve, reject)=>{
@@ -11,7 +13,7 @@ module.exports.registerClient = function(data){
         });
         client.save((err, client)=>{
             if(err){
-                console.log('error in registering user in registeruser.js ' + err );
+                winston.info('error in registering user in registeruser.js ' + err );
                 reject(err);
             }
             else{

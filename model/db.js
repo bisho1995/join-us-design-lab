@@ -1,23 +1,23 @@
 var mongoose = require('mongoose');
-
+var winston = require('../shared/logger');
 var connection = mongoose.createConnection("mongodb://codeworks0301:password@ds119449.mlab.com:19449/juyrna","");
 
 connection.on('connected', ()=>{
-    console.log('connected to database');
+    winston.info('connected to database');
 });
 
 connection.on('disconnected', ()=>{
-    console.log('disconnected from database');
+    winston.error('disconnected from database');
 });
 
 connection.on('error', (err)=>{
-    console.log('an error occured in the database connection ', err);
+    winston.error('an error occured in the database connection ', err);
 });
 
 
 process.on('SIGINT', ()=>{
     connection.close(()=>{
-        console.log('closing connection to mongodb as node is getting shut down');
+        winston.error('closing connection to mongodb as node is getting shut down');
         process.abort(0);
     });
 });

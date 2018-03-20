@@ -1,0 +1,6 @@
+{"level":"info","message":"connected to database","timestamp":1521560710520}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521560711100}
+{"level":"info","message":"connected to database","timestamp":1521560748685}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521560749257}
+{"level":"info","message":"connected to database","timestamp":1521561366554}
+{"level":"info","message":"client schema successfully indexed","timestamp":1521561367133}
