@@ -1,5 +1,13 @@
-extends layout
+extends shared/layout
 
 block content
   h1= title
-  p Welcome to #{title}
+
+  div.container
+    ul
+      li 
+        a(href="/register", target="_blank") register
+      li 
+        a(href="/login", target="_blank") login
+
+
