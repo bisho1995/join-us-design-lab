@@ -8,17 +8,12 @@ var bodyParser = require('body-parser');
 var compression = require('compression');
 var winston = require('./shared/logger');
 
-var index = require('./controller/index');
-var register = require('./controller/register');
-var login = require('./controller/login');
-
 var app = express();
 
 //added compression for faster rendering
 app.use(compression());
-
+//morgan logger level
 app.use(logger('combined'));
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
@@ -31,9 +26,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', index);
-app.use('/register', register);
-app.use('/login', login);
+app.use(require('./routes'));
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
