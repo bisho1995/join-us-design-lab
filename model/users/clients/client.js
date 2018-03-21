@@ -28,11 +28,9 @@ module.exports.doesEmailExist = function(email){
     return new Promise((resolve, reject)=>{
         model.findOne({'email': email}, (err, client)=>{
             if(err){
-                winston.error('error in client model doesEmailExist ' + err);
-                reject('There is some internal error');
+                reject(new Error(err));
             }
             else{
-                winston.info('found client with email id  ' +  email);
                 if(isEmptyObject(client) === true){
                     resolve(false);
                 }

@@ -13,7 +13,7 @@ module.exports.registerUser = function(req, res, next){
                 res.send('successfully registered');
             })
             .catch(err=>{
-                winston.info(err);
+                winston.error(err);
                 res.send('error');
             });
         }
@@ -22,7 +22,7 @@ module.exports.registerUser = function(req, res, next){
         }
     })
     .catch(err=>{
-        winston.error('There is some error in the register user.js '+err);
+        winston.error(err);
         res.send(err);
     });
 }//end of registeruser
