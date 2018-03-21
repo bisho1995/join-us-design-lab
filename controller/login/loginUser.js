@@ -15,7 +15,7 @@ module.exports.loginUser = (req, res, next)=>{
         }
     })
     .catch(err=>{
-        winston.error('error in loginUser ' + err );
+        winston.error(err);
         res.send('Internal server error');
     })
     ;
