@@ -495,3 +495,92 @@
 {"level":"info","message":"connected to database","timestamp":1522032191969}
 {"level":"info","message":"client schema successfully indexed","timestamp":1522032192545}
 {"level":"error","message":"disconnected from database","timestamp":1522032333694}
+{"level":"info","message":"connected to database","timestamp":1522040558439}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522040559398}
+{"level":"info","message":"connected to database","timestamp":1522040636689}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522040637289}
+{"level":"info","message":"connected to database","timestamp":1522040893908}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522040894497}
+{"level":"info","message":"connected to database","timestamp":1522040904166}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522040904770}
+{"level":"info","message":"connected to database","timestamp":1522040980731}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522040981297}
+{"level":"info","message":"connected to database","timestamp":1522040988613}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522040989185}
+{"level":"info","message":"connected to database","timestamp":1522041066024}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522041066586}
+{"level":"info","message":"connected to database","timestamp":1522041137239}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522041137829}
+{"level":"info","message":"connected to database","timestamp":1522041193584}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522041194160}
+{"level":"info","message":"connected to database","timestamp":1522041208455}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522041209016}
+{"level":"info","message":"connected to database","timestamp":1522041512482}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522041513035}
+{"level":"info","message":"connected to database","timestamp":1522042170586}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522042171164}
+{"level":"info","message":"connected to database","timestamp":1522042183014}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522042183568}
+{"level":"info","message":"connected to database","timestamp":1522042508180}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522042508736}
+{"level":"info","message":"connected to database","timestamp":1522042531642}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522042532196}
+{"level":"info","message":"connected to database","timestamp":1522042615642}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522042616239}
+{"level":"info","message":"connected to database","timestamp":1522042625244}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522042625849}
+{"level":"info","message":"connected to database","timestamp":1522042668072}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522042668642}
+{"level":"info","message":"connected to database","timestamp":1522042699506}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522042700093}
+{"level":"info","message":"connected to database","timestamp":1522042739351}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522042739916}
+{"level":"info","message":"connected to database","timestamp":1522042760419}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522042760990}
+{"level":"info","message":"connected to database","timestamp":1522042770608}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522042771172}
+{"level":"info","message":"connected to database","timestamp":1522042777275}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522042777829}
+{"level":"info","message":"connected to database","timestamp":1522042792381}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522042792942}
+{"level":"info","message":"connected to database","timestamp":1522042813726}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522042814311}
+{"level":"info","message":"connected to database","timestamp":1522042875720}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522042876283}
+{"level":"info","message":"connected to database","timestamp":1522042930023}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522042930593}
+{"level":"info","message":"connected to database","timestamp":1522043012867}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522043013457}
+{"level":"info","message":"connected to database","timestamp":1522043021102}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522043021685}
+{"level":"info","message":"connected to database","timestamp":1522043074383}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522043074969}
+{"level":"info","message":"connected to database","timestamp":1522043144804}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522043145379}
+{"level":"info","message":"connected to database","timestamp":1522043172908}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522043173475}
+{"level":"info","message":"connected to database","timestamp":1522043297896}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522043298483}
+{"level":"info","message":"connected to database","timestamp":1522043447949}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522043448549}
+{"level":"info","message":"connected to database","timestamp":1522043461327}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522043461921}
+{"level":"info","message":"connected to database","timestamp":1522045531900}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522045532500}
+{"level":"info","message":"connected to database","timestamp":1522045557959}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522045558532}
+{"level":"info","message":"connected to database","timestamp":1522045571484}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522045572065}
+{"level":"info","message":"connected to database","timestamp":1522045579111}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522045579702}
+{"level":"info","message":"connected to database","timestamp":1522045603622}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522045604207}
+{"level":"info","message":"connected to database","timestamp":1522045636429}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522045637008}
+{"level":"info","message":"connected to database","timestamp":1522045647957}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522045648516}
+{"level":"info","message":"connected to database","timestamp":1522046060513}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522046061113}
+{"level":"info","message":"connected to database","timestamp":1522046080250}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522046080850}
+{"level":"error","message":"disconnected from database","timestamp":1522046282590}
