@@ -1,0 +1,25 @@
+extends ../shared/layout
+
+block content	
+	div.container
+		div
+			h1(class="text-center") Find Counselor
+			br
+		div.container-fluid
+			div.row
+				div(class="col col-sm-10")
+					input(type="text" id="keywords" class="form-control" placeholder="enter counselor name if any..." autofocus)
+				div(class="col col-sm-2")
+					button(class="btn btn-primary btn-block", id="find_counselor") Find
+			br
+			br
+			div
+				div#results
+			div(class="text-center")
+				button(id="next_page" style="display: none" class="btn btn-success") Next Page
+
+
+	script(src="https://apis.google.com/js/api.js", type="text/javascript")
+	script(type="text/javascript", src="../javascripts/findcounselor.js")
+	script(defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous")
+
