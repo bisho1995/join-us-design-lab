@@ -7,7 +7,7 @@ router.use('/manage-peer-motivator', managepm);
 router.use('/manage-counselor-information', managecounselor);
 
 router.get('/', (req, res, next)=>{
-	res.send('Admin dashboard working');
+	res.render('admindashboard/dashboard');
 });
 
 module.exports = router;

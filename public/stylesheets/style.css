@@ -1,6 +1,6 @@
 body {
   padding: 50px;
-  font: 14px Roboto, Helvetica, Arial, sans-serif;
+  font-family: sans-serif !important;
 }
 
 a {
@@ -14,9 +14,10 @@ b{
 .button{
 	background: #2980b9;
 	border: 1px solid #2980b9;
-	border-radius: 3px;
+	border-radius: 10px;
 	color: #ecf0f1;
 	transition: all 0.5s;
 	text-transform: uppercase;
-	box-shadow: 0 0 5px #34495e;
+	box-shadow: 0 0 8px #ff6b81;
+	font-family: sans-serif;
 }

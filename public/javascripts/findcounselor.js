@@ -72,7 +72,7 @@ function formatDetailsOfResult(obj){
 
 function generateHtmlCodeForResult(data){
 	let code = "<section class='container-fluid block_content'><div class='row'>";
-	code += "<div class='col-sm-12'><h3><i class='fas fa-ambulance'></i> &nbsp;"+data.name+"</h3></div>";
+	code += "<div class='col-sm-12'><h3 class='names'><i class='fas fa-ambulance'></i> &nbsp;"+data.name+"</h3></div>";
 	code += "</div><div class='row'>";
 	code += "<div class='col-md-8'><br><b>Vicinity</b><br><div>" + data.vicinity + "</div></div>";
 	code += "<div class='col-md-4'><img class='mapImage' src="+generateStaticMapUrl(data.geometry.location.lat, data.geometry.location.lng)+"></div>"
