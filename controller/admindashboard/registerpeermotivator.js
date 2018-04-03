@@ -1,13 +1,51 @@
-var router = require('express').Router();
+'use strict'
+var router = require('express').Router()
+const pm = require('../../model/users/peermotivators/peermotivator')
+const winston = require('../../shared/logger')
 
 router.get('/', (req, res, next)=>{
-	res.render('admindashboard/registerpm');
+	res.render('admindashboard/registerpm')
 });
 
 router.post('/', (req, res, next)=>{
-	let userData = req.body;
-	res.send('working bro...');
+	let data = makeDataFromRequestBody(req.body)
+	pm.doesEmailExist(data.email).then(emailPresent=>{
+		if(emailPresent === true){
+			res.send('The email is already taken.')
+		}
+		else{
+			console.log('The data is ', data);
+			registerNewPm(data).then(data=>res.send(data))
+		}
+	}).catch(err=>
+		{
+			winston.error(err);
+			res.send('There was an error in checking if the email already exists.')
+		})
 });
+
+function makeDataFromRequestBody(userData){
+	return {
+		name: userData.name,
+		email: userData.email,
+		password: userData.password
+	}
+}
+
+
+function registerNewPm(data){
+	return new Promise(resolve=>{
+		pm.registerPm(data)
+		.then(resp=>
+			{
+				console.log(resp)
+				resolve('Successfully registered a pm')
+			}).catch(err=>{
+				winston.error(err)
+				resolve('There was an error in registering the pm')
+			});
+	});
+}
 
 
 module.exports = router;
