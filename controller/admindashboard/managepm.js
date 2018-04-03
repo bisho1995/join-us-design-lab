@@ -26,7 +26,9 @@ function formatData(datas){
 			return {
 				'name': data.name,
 				 'email': data.email,
-				 'id': data._id
+				 'id': data._id,
+				 'start_time': data.start_time,
+				 'end_time': data.end_time
 			}
 		})
 }
