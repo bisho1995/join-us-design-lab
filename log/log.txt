@@ -631,3 +631,176 @@
 {"level":"info","message":"client schema successfully indexed","timestamp":1522315163340}
 {"level":"info","message":"connected to database","timestamp":1522765344627}
 {"level":"info","message":"client schema successfully indexed","timestamp":1522765346569}
+{"level":"info","message":"connected to database","timestamp":1522765564530}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522765565511}
+{"level":"info","message":"connected to database","timestamp":1522765617139}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522765619180}
+{"level":"info","message":"connected to database","timestamp":1522765637819}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522765638375}
+{"level":"info","message":"connected to database","timestamp":1522765667172}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522765669254}
+{"level":"info","message":"connected to database","timestamp":1522765761077}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522765762500}
+{"level":"info","message":"connected to database","timestamp":1522765809907}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522765811814}
+{"level":"info","message":"connected to database","timestamp":1522765844179}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522765846217}
+{"level":"info","message":"connected to database","timestamp":1522765925903}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522765927558}
+{"level":"info","message":"connected to database","timestamp":1522765949047}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522765951175}
+{"level":"info","message":"connected to database","timestamp":1522765976619}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522765977509}
+{"level":"info","message":"connected to database","timestamp":1522766102225}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522766104200}
+{"level":"info","message":"connected to database","timestamp":1522766116210}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522766118309}
+{"level":"info","message":"connected to database","timestamp":1522766158195}
+{"level":"info","message":"connected to database","timestamp":1522766165205}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522766166890}
+{"level":"info","message":"connected to database","timestamp":1522766190253}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522766193162}
+{"level":"info","message":"connected to database","timestamp":1522766274005}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522766275556}
+{"level":"info","message":"connected to database","timestamp":1522766308726}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522766311207}
+{"level":"info","message":"connected to database","timestamp":1522766381232}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522766383175}
+{"level":"info","message":"connected to database","timestamp":1522766522194}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522766524168}
+{"level":"info","message":"connected to database","timestamp":1522766557203}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522766557957}
+{"level":"info","message":"connected to database","timestamp":1522766687181}
+{"level":"info","message":"connected to database","timestamp":1522766698230}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522766706182}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522766707173}
+{"level":"info","message":"connected to database","timestamp":1522766770705}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522766793528}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522766793531}
+{"level":"info","message":"connected to database","timestamp":1522766839191}
+{"level":"info","message":"connected to database","timestamp":1522766847218}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522766856177}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522766856181}
+{"level":"info","message":"error in registering peermotivator in peermotivator.js WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \\\"sdfsdaf@gmail.com\\\" }\",\"op\":{\"_id\":\"5ac3941d7e2fbc4536a5e2fd\",\"name\":\"sdfas\",\"email\":\"sdfsdaf@gmail.com\",\"password\":\"sdfsad\",\"__v\":0}})","timestamp":1522766878157}
+{"level":"info","message":"connected to database","timestamp":1522767003220}
+{"level":"info","message":"connected to database","timestamp":1522767010229}
+{"level":"info","message":"error in registering peermotivator in peermotivator.js WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \\\"sdfsdaf@gmail.com\\\" }\",\"op\":{\"_id\":\"5ac394a057ca0345e1d7a2ae\",\"name\":\"sdfas\",\"email\":\"sdfsdaf@gmail.com\",\"password\":\"sdfsad\",\"__v\":0}})","timestamp":1522767019217}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \"sdfsdaf@gmail.com\" }","op":{"_id":"5ac394a057ca0345e1d7a2ae","name":"sdfas","email":"sdfsdaf@gmail.com","password":"sdfsad","__v":0}}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767019236}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522767019237}
+{"level":"info","message":"connected to database","timestamp":1522767035222}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522767043175}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767043179}
+{"level":"info","message":"connected to database","timestamp":1522767101201}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522767110183}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767110187}
+{"level":"info","message":"connected to database","timestamp":1522767230226}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767238833}
+{"level":"info","message":"error in registering peermotivator in peermotivator.js WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \\\"sdfsdaf@gmail.com\\\" }\",\"op\":{\"_id\":\"5ac39583d3ccdb46e63c3e1a\",\"name\":\"sdfas\",\"email\":\"sdfsdaf@gmail.com\",\"password\":\"sdfsad\",\"__v\":0}})","timestamp":1522767238845}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \"sdfsdaf@gmail.com\" }","op":{"_id":"5ac39583d3ccdb46e63c3e1a","name":"sdfas","email":"sdfsdaf@gmail.com","password":"sdfsad","__v":0}}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522767238855}
+{"level":"info","message":"connected to database","timestamp":1522767341662}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767351653}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522767351655}
+{"level":"info","message":"error in registering peermotivator in peermotivator.js WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \\\"sdfsdaf@gmail.com\\\" }\",\"op\":{\"_id\":\"5ac395f75fbf6047438a69c9\",\"name\":\"sdfas\",\"email\":\"sdfsdaf@gmail.com\",\"password\":\"sdfsad\",\"__v\":0}})","timestamp":1522767351702}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \"sdfsdaf@gmail.com\" }","op":{"_id":"5ac395f75fbf6047438a69c9","name":"sdfas","email":"sdfsdaf@gmail.com","password":"sdfsad","__v":0}}
+{"level":"info","message":"connected to database","timestamp":1522767411537}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767418054}
+{"level":"info","message":"error in registering peermotivator in peermotivator.js WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \\\"sdfsdaf@gmail.com\\\" }\",\"op\":{\"_id\":\"5ac3963873b47b47af4d92ce\",\"name\":\"sdfas\",\"email\":\"sdfsdaf@gmail.com\",\"password\":\"sdfsad\",\"__v\":0}})","timestamp":1522767418063}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \"sdfsdaf@gmail.com\" }","op":{"_id":"5ac3963873b47b47af4d92ce","name":"sdfas","email":"sdfsdaf@gmail.com","password":"sdfsad","__v":0}}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522767418098}
+{"level":"info","message":"connected to database","timestamp":1522767663190}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767671176}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522767671181}
+{"level":"info","message":"connected to database","timestamp":1522767694598}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522767696902}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767698127}
+{"level":"info","message":"connected to database","timestamp":1522767706194}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522767712560}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767712564}
+{"message":"Cast to string failed for value \"{ name: 'sdfas', email: 'sdfsdaf@gmail.com', password: 'sdfsad' }\" at path \"email\" for model \"peermotivator\"","stack":"CastError: Cast to string failed for value \"{ name: 'sdfas', email: 'sdfsdaf@gmail.com', password: 'sdfsad' }\" at path \"email\" for model \"peermotivator\"\n    at MongooseError.CastError (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/error/cast.js:27:11)\n    at SchemaString.cast (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schema/string.js:460:9)\n    at SchemaString.SchemaType.applySetters (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schematype.js:724:12)\n    at SchemaString.SchemaType._castForQuery (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schematype.js:1095:15)\n    at SchemaString.castForQuery (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schema/string.js:515:15)\n    at SchemaString.SchemaType.castForQueryWrapper (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schematype.js:1064:15)\n    at cast (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/cast.js:245:34)\n    at Query.cast (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/query.js:3198:12)\n    at Query._castConditions (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/query.js:1278:10)\n    at Query._findOne (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/query.js:1494:8)\n    at Query.findOne (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/query.js:1611:8)\n    at Function.findOne (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/model.js:1500:13)\n    at Promise (/home/ubuntu/Desktop/design lab/join-us-design-lab/model/users/peermotivators/peermotivator.js:32:15)\n    at Object.module.exports.doesEmailExist (/home/ubuntu/Desktop/design lab/join-us-design-lab/model/users/peermotivators/peermotivator.js:31:12)\n    at router.post (/home/ubuntu/Desktop/design lab/join-us-design-lab/controller/admindashboard/registerpeermotivator.js:11:5)\n    at Layer.handle [as handle_request] (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/express/lib/router/layer.js:95:5)","name":"CastError","stringValue":"\"{ name: 'sdfas', email: 'sdfsdaf@gmail.com', password: 'sdfsad' }\"","kind":"string","value":{"name":"sdfas","email":"sdfsdaf@gmail.com","password":"sdfsad"},"path":"email","level":"error","timestamp":1522767714876}
+{"level":"info","message":"connected to database","timestamp":1522767781840}
+{"message":"Cast to string failed for value \"{ name: 'sdfas', email: 'sdfsdaf@gmail.com', password: 'sdfsad' }\" at path \"email\" for model \"peermotivator\"","stack":"CastError: Cast to string failed for value \"{ name: 'sdfas', email: 'sdfsdaf@gmail.com', password: 'sdfsad' }\" at path \"email\" for model \"peermotivator\"\n    at MongooseError.CastError (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/error/cast.js:27:11)\n    at SchemaString.cast (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schema/string.js:460:9)\n    at SchemaString.SchemaType.applySetters (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schematype.js:724:12)\n    at SchemaString.SchemaType._castForQuery (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schematype.js:1095:15)\n    at SchemaString.castForQuery (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schema/string.js:515:15)\n    at SchemaString.SchemaType.castForQueryWrapper (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schematype.js:1064:15)\n    at cast (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/cast.js:245:34)\n    at Query.cast (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/query.js:3198:12)\n    at Query._castConditions (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/query.js:1278:10)\n    at Query._findOne (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/query.js:1494:8)\n    at Query.findOne (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/query.js:1611:8)\n    at Function.findOne (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/model.js:1500:13)\n    at Promise (/home/ubuntu/Desktop/design lab/join-us-design-lab/model/users/peermotivators/peermotivator.js:32:15)\n    at Object.module.exports.doesEmailExist (/home/ubuntu/Desktop/design lab/join-us-design-lab/model/users/peermotivators/peermotivator.js:31:12)\n    at router.post (/home/ubuntu/Desktop/design lab/join-us-design-lab/controller/admindashboard/registerpeermotivator.js:11:5)\n    at Layer.handle [as handle_request] (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/express/lib/router/layer.js:95:5)","name":"CastError","stringValue":"\"{ name: 'sdfas', email: 'sdfsdaf@gmail.com', password: 'sdfsad' }\"","kind":"string","value":{"name":"sdfas","email":"sdfsdaf@gmail.com","password":"sdfsad"},"path":"email","level":"error","timestamp":1522767784531}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767788517}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522767788519}
+{"level":"info","message":"connected to database","timestamp":1522767824438}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522767835154}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767835158}
+{"level":"info","message":"connected to database","timestamp":1522767874483}
+{"level":"info","message":"connected to database","timestamp":1522767885201}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522767892377}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767892380}
+{"level":"info","message":"connected to database","timestamp":1522767906227}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767912910}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522767912917}
+{"level":"info","message":"connected to database","timestamp":1522767951327}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767964200}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522767964204}
+{"level":"info","message":"connected to database","timestamp":1522767978704}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522767998196}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767998200}
+{"level":"info","message":"connected to database","timestamp":1522768021203}
+{"level":"info","message":"connected to database","timestamp":1522768032212}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522768036954}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522768036961}
+{"level":"info","message":"error in registering peermotivator in peermotivator.js ValidationError: name: Path `name` is required., email: Path `email` is required., password: Path `password` is required.","timestamp":1522768038253}
+{"message":"peermotivator validation failed: name: Path `name` is required., email: Path `email` is required., password: Path `password` is required.","errors":{"name":{"message":"Path `name` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"name"},"kind":"required","path":"name","$isValidatorError":true},"email":{"message":"Path `email` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"email"},"kind":"required","path":"email","$isValidatorError":true},"password":{"message":"Path `password` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"password"},"kind":"required","path":"password","$isValidatorError":true}},"_message":"peermotivator validation failed","stack":"ValidationError: peermotivator validation failed: name: Path `name` is required., email: Path `email` is required., password: Path `password` is required.\n    at MongooseError.ValidationError (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/error/validation.js:27:11)\n    at model.Document.invalidate (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/document.js:1751:32)\n    at /home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/document.js:1623:17\n    at /home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schematype.js:808:9\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)\n    at process._tickCallback (internal/process/next_tick.js:104:9)","name":"ValidationError","level":"error","timestamp":1522768038255}
+{"level":"info","message":"connected to database","timestamp":1522768181359}
+{"level":"info","message":"error in registering peermotivator in peermotivator.js ValidationError: name: Path `name` is required., email: Path `email` is required., password: Path `password` is required.","timestamp":1522768188292}
+{"message":"peermotivator validation failed: name: Path `name` is required., email: Path `email` is required., password: Path `password` is required.","errors":{"name":{"message":"Path `name` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"name"},"kind":"required","path":"name","$isValidatorError":true},"email":{"message":"Path `email` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"email"},"kind":"required","path":"email","$isValidatorError":true},"password":{"message":"Path `password` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"password"},"kind":"required","path":"password","$isValidatorError":true}},"_message":"peermotivator validation failed","stack":"ValidationError: peermotivator validation failed: name: Path `name` is required., email: Path `email` is required., password: Path `password` is required.\n    at MongooseError.ValidationError (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/error/validation.js:27:11)\n    at model.Document.invalidate (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/document.js:1751:32)\n    at /home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/document.js:1623:17\n    at /home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schematype.js:808:9\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)\n    at process._tickCallback (internal/process/next_tick.js:104:9)","name":"ValidationError","level":"error","timestamp":1522768188294}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522768188313}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522768188317}
+{"level":"info","message":"connected to database","timestamp":1522768239191}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522768247075}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522768247079}
+{"level":"info","message":"error in registering peermotivator in peermotivator.js WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \\\"sdfsdaf@gmail.com\\\" }\",\"op\":{\"_id\":\"5ac39977dbfb294c681e8cff\",\"name\":\"sdfas\",\"email\":\"sdfsdaf@gmail.com\",\"password\":\"sdfsad\",\"__v\":0}})","timestamp":1522768248209}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \"sdfsdaf@gmail.com\" }","op":{"_id":"5ac39977dbfb294c681e8cff","name":"sdfas","email":"sdfsdaf@gmail.com","password":"sdfsad","__v":0}}
+{"level":"info","message":"connected to database","timestamp":1522768290222}
+{"level":"info","message":"connected to database","timestamp":1522768302197}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522768309193}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522768309199}
+{"level":"info","message":"connected to database","timestamp":1522768337936}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522768349192}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522768353190}
+{"level":"info","message":"connected to database","timestamp":1522768433171}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522768440714}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522768440717}
+{"level":"info","message":"connected to database","timestamp":1522768497203}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522768504873}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522768504882}
+{"level":"info","message":"connected to database","timestamp":1522768575312}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522768595177}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522768595181}
+{"level":"info","message":"connected to database","timestamp":1522768677713}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522768685192}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522768685225}
+{"level":"info","message":"connected to database","timestamp":1522769172372}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522769184802}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522769187174}
+{"level":"info","message":"connected to database","timestamp":1522769249208}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522769256997}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522769257001}
+{"level":"info","message":"connected to database","timestamp":1522769387384}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522769389882}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522769392141}
+{"level":"info","message":"connected to database","timestamp":1522769494779}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522769504200}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522769504204}
+{"level":"info","message":"connected to database","timestamp":1522769540290}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522769544344}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522769544347}
+{"level":"info","message":"connected to database","timestamp":1522769568433}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522769576202}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522769576206}
+{"level":"info","message":"connected to database","timestamp":1522769677169}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522769679783}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522769682297}
+{"level":"info","message":"connected to database","timestamp":1522769697204}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522769705466}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522769705475}
+{"level":"info","message":"connected to database","timestamp":1522769732180}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522769739178}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522769739181}
+{"level":"info","message":"connected to database","timestamp":1522769791184}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522769802223}
+{"level":"info","message":"client schema successfully indexed","timestamp":1522769802226}
