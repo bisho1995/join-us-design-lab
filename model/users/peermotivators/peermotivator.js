@@ -5,7 +5,7 @@ var model = require('./schema');
 var winston = require('../../../shared/logger');
 
 
-module.exports.registerClient = function(data){
+module.exports.registerPm = function(data){
     return new Promise((resolve, reject)=>{
         let client = new model({
             name: data.name,
@@ -31,7 +31,7 @@ module.exports.doesEmailExist = function(email){
     return new Promise((resolve, reject)=>{
         model.findOne({'email': email}, (err, client)=>{
             if(err){
-                reject(new Error(err));
+                reject(err);
             }
             else{
                 if(isEmptyObject(client) === true){
@@ -45,6 +45,19 @@ module.exports.doesEmailExist = function(email){
     });
 }
 
+
+module.exports.getAllPm = ()=>{
+    return new Promise((resolve, reject)=>{
+        model.find((err, docs)=>{
+            if(err){
+                reject(err);
+            }
+            else{
+                resolve(docs);
+            }
+        })
+    });
+}
 
 
 
