@@ -26,10 +26,10 @@ var model = connection.model('peermotivator', schema);
 
 model.once('index', (err)=>{
     if(err){
-        winston.info('there is a problem with client schema index '+ err);
+        winston.info('there is a problem with Peermotivator schema index '+ err);
     }
     else{
-        winston.info('client schema successfully indexed');
+        winston.info('Peermotivator schema successfully indexed');
     }
 });
 
