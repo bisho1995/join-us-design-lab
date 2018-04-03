@@ -1,5 +1,16 @@
 var express = require('express');
+
+
+
 var mongoose = require('./model/db');
+/**
+ * call the schemas here so that they get indexed as soon as the app 
+ * starts, otherwise it may slow the app mid run stage
+ */
+require('./schemas');
+
+
+
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
@@ -13,7 +24,7 @@ var app = express();
 //added compression for faster rendering
 app.use(compression());
 //morgan logger level
-app.use(logger('combined'));
+app.use(logger('dev'));
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
