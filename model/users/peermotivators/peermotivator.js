@@ -10,7 +10,9 @@ module.exports.registerPm = function(data){
         let client = new model({
             name: data.name,
             email: data.email,
-            password: data.password
+            password: data.password,
+            start_time: data.start_time,
+            end_time: data.end_time
         });
         client.save((err, client)=>{
             if(err){

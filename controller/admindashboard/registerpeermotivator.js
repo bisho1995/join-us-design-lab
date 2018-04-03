@@ -25,14 +25,25 @@ router.post('/', (req, res, next)=>{
 });
 
 function makeDataFromRequestBody(userData){
-	return {
+	let _tmp = {
 		name: userData.name,
 		email: userData.email,
-		password: userData.password
+		password: userData.password,
+		start_time: userData.start_time,
+		end_time: userData.end_time
 	}
+
+	if( _tmp.end_time < _tmp.start_time ){
+		_tmp.end_time += 24
+	}
+
+	return _tmp
 }
 
-
+/**
+ * 
+ * @param {object} data This is the data object which is to be inserted to the db
+ */
 function registerNewPm(data){
 	return new Promise(resolve=>{
 		pm.registerPm(data)

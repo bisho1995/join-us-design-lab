@@ -15,6 +15,14 @@ var schema = new mongoose.Schema({
     password: {
         type: String,
         required: true
+    },
+    start_time: {
+        type: Number,
+        required: true
+    },
+    end_time: {
+        type: Number,
+        required: true
     }
 });
 
