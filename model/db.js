@@ -11,7 +11,8 @@ connection.on('disconnected', ()=>{
 });
 
 connection.on('error', (err)=>{
-    winston.error('an error occured in the database connection ', err);
+    winston.info('an error occured in the database connection ');
+    winston.error(err.stack)
 });
 
 
