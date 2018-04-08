@@ -62,6 +62,19 @@ module.exports.getAllPm = ()=>{
 }
 
 
+module.exports.getPasswordForEmail = (email)=>{
+    return new Promise((resolve, reject)=>{
+        model.findOne({email: email}, ['password'], (err, docs)=>{
+            if(err){
+                reject(err)
+            }
+            else{
+                resolve(docs)
+            }
+        })
+    })
+}
+
 
 function isEmptyObject(objectInput) {
     for ( name in objectInput){
