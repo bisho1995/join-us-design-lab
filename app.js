@@ -5,7 +5,7 @@ var express = require('express');
 var mongoose = require('./model/db');
 /**
  * call the schemas here so that they get indexed as soon as the app 
- * starts, otherwise it may slow the app mid run stage
+ * starts, otherwise it may slow the app mid run stage.
  */
 require('./schemas');
 
