@@ -4,6 +4,8 @@ node_js:
  - "8"
  - "9"
 before_script:
+  - npm i -g nodemon
+  - npm i -g jasmine
   - npm install
 script:
-  - jasmine
+  - npm test
