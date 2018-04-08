@@ -9,7 +9,11 @@ router.get('/',(req, res, next)=>{
 	getAllPm().then(data=>{
 		let formattedData = formatData(data)
 		res.send(formattedData)
-	}).catch(err=>res.send('An err'))
+	}).catch(err=>
+		{
+			winston.error(err.stack)
+			res.send('An err')
+		})
 });
 
 
