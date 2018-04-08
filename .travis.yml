@@ -6,6 +6,7 @@ node_js:
 before_script:
   - npm i -g nodemon
   - npm i -g jasmine
+  - chmod 0777 ./node_modules/.bin/jasmine
   - npm install
 script:
   - npm test
