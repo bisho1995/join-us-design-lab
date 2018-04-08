@@ -1,15 +1,15 @@
 {
   "name": "join-us-you-are-not-alone",
   "version": "0.0.0",
-  "description": "",
+  "description": "This is my final year design lab project, where we are building a platform to serve people suffering from depression.",
   "repository": {
     "type": "git",
     "url": "https://github.com/bisho1995/join-us-design-lab.git"
   },
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www",
-    "test": ""
+    "start": "./node_modules/.bin/nodemon ./bin/www",
+    "test": "./node_modules/.bin/nodemon --exec ./node_modules/.bin/jasmine "
   },
   "dependencies": {
     "body-parser": "1.18.2",
@@ -17,16 +17,15 @@
     "cookie-parser": "1.4.3",
     "debug": "2.6.9",
     "express": "4.15.5",
-    "mongoose": "^5.0.11",
+    "mongoose": "5.0.11",
     "morgan": "1.9.0",
     "pug": "2.0.0-beta11",
-    "request": "^2.85.0",
+    "request": "2.85.0",
     "serve-favicon": "2.4.5",
-    "winston": "^2.4.1"
+    "winston": "2.4.1"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^5.0.4",
-    "nodemon": "^1.17.3"
+    "jasmine": "3.1.0",
+    "nodemon": "1.17.3"
   }
 }
