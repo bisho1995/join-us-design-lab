@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/bisho1995/join-us-design-lab.svg?branch=master)](https://travis-ci.org/bisho1995/join-us-design-lab)
-[![Bisvarup Mukherjee](https://img.shields.io/badge/secured%20by-taylor%20swift-brightgreen.svg)
+[![Bisvarup Mukherjee](https://img.shields.io/badge/secured%20by-Bsvarup%Mukherjee-brightgreen.svg)
 
 https://flatuicolors.com/palette/cn
 
