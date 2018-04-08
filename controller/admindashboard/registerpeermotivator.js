@@ -19,7 +19,7 @@ router.post('/', (req, res, next)=>{
 		}
 	}).catch(err=>
 		{
-			winston.error(err);
+			winston.error(err.stack)
 			res.send('There was an error in checking if the email already exists.')
 		})
 });
@@ -52,7 +52,7 @@ function registerNewPm(data){
 				console.log(resp)
 				resolve('Successfully registered a pm')
 			}).catch(err=>{
-				winston.error(err)
+				winston.error(err.stack)
 				resolve('There was an error in registering the pm')
 			});
 	});
