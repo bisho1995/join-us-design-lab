@@ -6,7 +6,7 @@ let findcounselor = require('./clientdashboard/findcounselor')
 router.use('/find-counselor', findcounselor)
 
 router.get('/', (req, res, next)=>{
-    res.send('client dashboard works');
+    res.render('clientdashboard/index')
 })
 
 module.exports = router
