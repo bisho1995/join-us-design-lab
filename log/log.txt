@@ -874,3 +874,4 @@
 {"level":"info","message":"connected to database","timestamp":1523159429008}
 {"level":"info","message":"client schema successfully indexed","timestamp":1523159430473}
 {"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523159430774}
+{"level":"error","message":"disconnected from database","timestamp":1523162014140}

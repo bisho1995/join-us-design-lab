@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bisho1995/join-us-design-lab.svg?branch=master)](https://travis-ci.org/bisho1995/join-us-design-lab)
+
 https://flatuicolors.com/palette/cn
 
 #Time Issue
