@@ -1,877 +1,126 @@
-{"level":"info","message":"connected to database","timestamp":1521560710520}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521560711100}
-{"level":"info","message":"connected to database","timestamp":1521560748685}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521560749257}
-{"level":"info","message":"connected to database","timestamp":1521561366554}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521561367133}
-{"level":"info","message":"connected to database","timestamp":1521564265553}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521564266107}
-{"level":"info","message":"connected to database","timestamp":1521564334274}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521564334854}
-{"level":"info","message":"connected to database","timestamp":1521564343435}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521564344009}
-{"level":"info","message":"connected to database","timestamp":1521564365996}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521564366591}
-{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521564395214}
-{"level":"info","message":"error in registering user in registeruser.js ValidationError: password: Path `password` is required.","timestamp":1521564395233}
-{"message":"clients validation failed: password: Path `password` is required.","errors":{"password":{"message":"Path `password` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"password","value":""},"kind":"required","path":"password","value":"","$isValidatorError":true}},"_message":"clients validation failed","stack":"ValidationError: clients validation failed: password: Path `password` is required.\n    at new ValidationError (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Document.invalidate (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongoose\\lib\\document.js:1751:32)\n    at C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongoose\\lib\\document.js:1623:17\n    at C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongoose\\lib\\schematype.js:808:9\n    at process._tickCallback (internal/process/next_tick.js:150:11)","name":"ValidationError","level":"info","timestamp":1521564395235}
-{"level":"info","message":"connected to database","timestamp":1521564485656}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521564486228}
-{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521564495126}
-{"level":"info","message":"error in registering user in registeruser.js WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error index: juyrna.clients.$email_1 dup key: { : \\\"mita@gmail.com\\\" }\",\"op\":{\"_id\":\"5ab13b4f35c80c2f582fc04c\",\"name\":\"mita\",\"email\":\"mita@gmail.com\",\"password\":\"password\",\"__v\":0}})","timestamp":1521564496452}
-{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: juyrna.clients.$email_1 dup key: { : \"mita@gmail.com\" }","op":{"_id":"5ab13b4f35c80c2f582fc04c","name":"mita","email":"mita@gmail.com","password":"password","__v":0}}
-{"level":"info","message":"connected to database","timestamp":1521564551841}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521564552437}
-{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521564559295}
-{"level":"info","message":"error in registering user in registeruser.js WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error index: juyrna.clients.$email_1 dup key: { : \\\"mita@gmail.com\\\" }\",\"op\":{\"_id\":\"5ab13b8f26a5223398879b6f\",\"name\":\"mita\",\"email\":\"mita@gmail.com\",\"password\":\"password\",\"__v\":0}})","timestamp":1521564559643}
-{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: juyrna.clients.$email_1 dup key: { : \"mita@gmail.com\" }","op":{"_id":"5ab13b8f26a5223398879b6f","name":"mita","email":"mita@gmail.com","password":"password","__v":0}}
-{"level":"info","message":"connected to database","timestamp":1521564638481}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521564639080}
-{"level":"info","message":"connected to database","timestamp":1521564649409}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521564649964}
-{"level":"info","message":"connected to database","timestamp":1521564667625}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521564668196}
-{"level":"info","message":"connected to database","timestamp":1521564706653}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521564707207}
-{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521564711924}
-{"level":"info","message":"error in registering user in registeruser.js WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error index: juyrna.clients.$email_1 dup key: { : \\\"mita@gmail.com\\\" }\",\"op\":{\"_id\":\"5ab13c27347f7827e0da9833\",\"name\":\"mita\",\"email\":\"mita@gmail.com\",\"password\":\"password\",\"__v\":0}})","timestamp":1521564712232}
-{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: juyrna.clients.$email_1 dup key: { : \"mita@gmail.com\" }","op":{"_id":"5ab13c27347f7827e0da9833","name":"mita","email":"mita@gmail.com","password":"password","__v":0}}
-{"level":"info","message":"connected to database","timestamp":1521564731373}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521564731971}
-{"level":"info","message":"connected to database","timestamp":1521564744600}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521564745197}
-{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521564753585}
-{"level":"error","message":"There is some error in the register user.js Email alredy exists","timestamp":1521564753587}
-{"level":"info","message":"connected to database","timestamp":1521564783920}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521564784482}
-{"level":"info","message":"connected to database","timestamp":1521564799851}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521564800407}
-{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521564807434}
-{"level":"error","message":"There is some error in the register user.js Email alredy exists","timestamp":1521564807436}
-{"level":"info","message":"found client with email id  mita1@gmail.com","timestamp":1521564815466}
-{"$__":{"strictMode":true,"inserting":true,"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":177,"2":60,"3":143,"4":195,"5":54,"6":29,"7":30,"8":104,"9":255,"10":109,"11":234}},"wasPopulated":false,"activePaths":{"paths":{"password":"require","email":"require","name":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"password":true,"email":true,"name":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"_id":{"$ref":"$[\"$__\"][\"_id\"]"},"name":"mita","email":"mita1@gmail.com","password":"pass","__v":0},"level":"info","message":"","timestamp":1521564815761}
-{"level":"info","message":"connected to database","timestamp":1521564930323}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521564930905}
-{"level":"error","message":"disconnected from database","timestamp":1521565109813}
-{"level":"info","message":"connected to database","timestamp":1521565112134}
-{"level":"info","message":"connected to database","timestamp":1521565128566}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521565129134}
-{"level":"info","message":"connected to database","timestamp":1521565282511}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521565283078}
-{"level":"info","message":"connected to database","timestamp":1521565318553}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521565319125}
-{"level":"error","message":"disconnected from database","timestamp":1521565392726}
-{"level":"info","message":"connected to database","timestamp":1521565497411}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521565498017}
-{"level":"info","message":"connected to database","timestamp":1521565588970}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521565589533}
-{"level":"info","message":"connected to database","timestamp":1521565726009}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521565726590}
-{"level":"info","message":"connected to database","timestamp":1521565775674}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521565776282}
-{"level":"info","message":"connected to database","timestamp":1521565892525}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521565893114}
-{"level":"info","message":"found client with email id  bishoatiem@gmail.com","timestamp":1521565904946}
-{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521565914975}
-{"level":"info","message":"connected to database","timestamp":1521565945619}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521565947107}
-{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521565947131}
-{"level":"info","message":"found client with email id  mitaq@gmail.com","timestamp":1521565952881}
-{"level":"info","message":"found client with email id  mitaq@gmail.com","timestamp":1521565971490}
-{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521566023549}
-{"level":"info","message":"error in registering user in registeruser.js WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error index: juyrna.clients.$email_1 dup key: { : \\\"mita@gmail.com\\\" }\",\"op\":{\"_id\":\"5ab14147899dbb153cd85b4c\",\"name\":\"mita\",\"email\":\"mita@gmail.com\",\"password\":\"aaa\",\"__v\":0}})","timestamp":1521566023869}
-{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: juyrna.clients.$email_1 dup key: { : \"mita@gmail.com\" }","op":{"_id":"5ab14147899dbb153cd85b4c","name":"mita","email":"mita@gmail.com","password":"aaa","__v":0}}
-{"level":"info","message":"connected to database","timestamp":1521566148862}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521566149437}
-{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521566150801}
-{"level":"info","message":"found client with email id  mit1a@gmail.comfsfd","timestamp":1521566160014}
-{"level":"info","message":"found client with email id  mit1a@gmail.comfsfd","timestamp":1521566163528}
-{"level":"info","message":"found client with email id  mit1aqq@gmail.comfsfd","timestamp":1521566195145}
-{"level":"info","message":"connected to database","timestamp":1521566225822}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521566226404}
-{"level":"info","message":"connected to database","timestamp":1521566233798}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521566234373}
-{"level":"info","message":"found client with email id  mi2t1aqq@gmail.comfsfd","timestamp":1521566275947}
-{"$__":{"strictMode":true,"inserting":true,"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":177,"2":66,"3":67,"4":1,"5":83,"6":78,"7":33,"8":0,"9":249,"10":133,"11":126}},"wasPopulated":false,"activePaths":{"paths":{"password":"require","email":"require","name":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"password":true,"email":true,"name":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"_id":{"$ref":"$[\"$__\"][\"_id\"]"},"name":"mita","email":"mi2t1aqq@gmail.comfsfd","password":"xx","__v":0},"level":"info","message":"","timestamp":1521566276278}
-{"level":"info","message":"found client with email id  mi2t1aqq@gmail.comfsfd","timestamp":1521566281409}
-{"level":"info","message":"found client with email id  sfsadfasd@gmail.com","timestamp":1521566294235}
-{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521566304838}
-{"level":"info","message":"connected to database","timestamp":1521566333936}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521566334519}
-{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521566336249}
-{"level":"info","message":"found client with email id  misdfsafta@gmail.com","timestamp":1521566341788}
-{"level":"info","message":"connected to database","timestamp":1521566550842}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521566551409}
-{"level":"info","message":"connected to database","timestamp":1521566573118}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521566573714}
-{"level":"info","message":"connected to database","timestamp":1521566582370}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521566582947}
-{"level":"info","message":"connected to database","timestamp":1521566597075}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521566597664}
-{"level":"error","message":"disconnected from database","timestamp":1521566612792}
-{"level":"info","message":"connected to database","timestamp":1521596799834}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521596800395}
-{"level":"info","message":"found client with email id  mita@gmail.com","timestamp":1521597197675}
-{"level":"info","message":"connected to database","timestamp":1521597246088}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521597246636}
-{"level":"info","message":"connected to database","timestamp":1521597257485}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521597258052}
-{"level":"info","message":"connected to database","timestamp":1521597311673}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521597312243}
-{"level":"info","message":"connected to database","timestamp":1521597327098}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521597327656}
-{"message":"an error occured in the database connection ","name":"MongoError","ok":0,"errmsg":"Authentication failed.","code":18,"codeName":"AuthenticationFailed","stack":"MongoError: Authentication failed.\n    at C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb-core\\lib\\connection\\pool.js:595:61\n    at authenticateStragglers (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb-core\\lib\\connection\\pool.js:513:16)\n    at Connection.messageHandler (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb-core\\lib\\connection\\pool.js:549:5)\n    at emitMessageHandler (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb-core\\lib\\connection\\connection.js:309:10)\n    at Socket.<anonymous> (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb-core\\lib\\connection\\connection.js:452:17)\n    at Socket.emit (events.js:127:13)\n    at addChunk (_stream_readable.js:269:12)\n    at readableAddChunk (_stream_readable.js:256:11)\n    at Socket.Readable.push (_stream_readable.js:213:10)\n    at TCP.onread (net.js:590:20)","level":"error","timestamp":1521597414084}
-{"level":"info","message":"connected to database","timestamp":1521597430508}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521597431090}
-{"level":"info","message":"connected to database","timestamp":1521597500505}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521597501101}
-{"level":"error","message":"Error: an error occured in the database connection MongoError: Authentication failed.\n    at NativeConnection.connection.on (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\model\\db.js:14:14)\n    at NativeConnection.emit (events.js:127:13)\n    at C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongoose\\lib\\connection.js:361:19\n    at err (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb\\lib\\utils.js:414:14)\n    at executeCallback (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb\\lib\\utils.js:403:25)\n    at C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb\\lib\\mongo_client.js:270:21\n    at connectCallback (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb\\lib\\mongo_client.js:940:5)\n    at C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb\\lib\\mongo_client.js:824:13\n    at process._tickCallback (internal/process/next_tick.js:150:11) an error occured in the database connection MongoError: Authentication failed.","timestamp":1521597506861}
-{"level":"error","message":"Error: an error occured in the database connection MongoError: Authentication failed.\n    at NativeConnection.connection.on (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\model\\db.js:14:14)\n    at NativeConnection.emit (events.js:127:13)\n    at C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongoose\\lib\\connection.js:361:19\n    at err (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb\\lib\\utils.js:414:14)\n    at executeCallback (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb\\lib\\utils.js:403:25)\n    at C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb\\lib\\mongo_client.js:270:21\n    at connectCallback (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb\\lib\\mongo_client.js:940:5)\n    at C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb\\lib\\mongo_client.js:824:13\n    at process._tickCallback (internal/process/next_tick.js:150:11)","timestamp":1521597549917}
-{"level":"error","message":" ************ Error: an error occured in the database connection MongoError: Authentication failed.\n    at NativeConnection.connection.on (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\model\\db.js:14:14)\n    at NativeConnection.emit (events.js:127:13)\n    at C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongoose\\lib\\connection.js:361:19\n    at err (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb\\lib\\utils.js:414:14)\n    at executeCallback (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb\\lib\\utils.js:403:25)\n    at C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb\\lib\\mongo_client.js:270:21\n    at connectCallback (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb\\lib\\mongo_client.js:940:5)\n    at C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb\\lib\\mongo_client.js:824:13\n    at process._tickCallback (internal/process/next_tick.js:150:11) ****************","timestamp":1521597572489}
-{"level":"error","message":" ************ MongoError: Authentication failed.\n    at C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb-core\\lib\\connection\\pool.js:595:61\n    at authenticateStragglers (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb-core\\lib\\connection\\pool.js:513:16)\n    at Connection.messageHandler (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb-core\\lib\\connection\\pool.js:549:5)\n    at emitMessageHandler (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb-core\\lib\\connection\\connection.js:309:10)\n    at Socket.<anonymous> (C:\\Users\\user\\Google Drive\\IEM\\sem8\\Project Management\\code\\node_modules\\mongodb-core\\lib\\connection\\connection.js:452:17)\n    at Socket.emit (events.js:127:13)\n    at addChunk (_stream_readable.js:269:12)\n    at readableAddChunk (_stream_readable.js:256:11)\n    at Socket.Readable.push (_stream_readable.js:213:10)\n    at TCP.onread (net.js:590:20) ****************","timestamp":1521597609206}
-{"level":"error","message":" ************ MongoError: Authentication failed. ****************","timestamp":1521597685202}
-{"level":"error","message":" ************ Authentication failed. ****************","timestamp":1521597702334}
-{"level":"info","message":"connected to database","timestamp":1521597751578}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521597752148}
-{"level":"info","message":"connected to database","timestamp":1521597822790}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521597823352}
-{"level":"info","message":"connected to database","timestamp":1521597862136}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521597862722}
-{"level":"info","message":"connected to database","timestamp":1521598079280}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521598079874}
-{"level":"info","message":"connected to database","timestamp":1521598088398}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521598088968}
-{"level":"info","message":"connected to database","timestamp":1521598147675}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521598148254}
-{"level":"info","message":"connected to database","timestamp":1521598342253}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521598342810}
-{"level":"info","message":"connected to database","timestamp":1521598450875}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521598451466}
-{"$__":{"strictMode":true,"inserting":true,"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":177,"2":192,"3":7,"4":107,"5":123,"6":135,"7":32,"8":12,"9":157,"10":123,"11":33}},"wasPopulated":false,"activePaths":{"paths":{"password":"require","email":"require","name":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"password":true,"email":true,"name":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"_id":{"$ref":"$[\"$__\"][\"_id\"]"},"name":"mita45","email":"mita34f3@gmail.com","password":"pass","__v":0},"level":"info","message":"","timestamp":1521598472271}
-{"$__":{"strictMode":true,"inserting":true,"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":177,"2":192,"3":109,"4":107,"5":123,"6":135,"7":32,"8":12,"9":157,"10":123,"11":34}},"wasPopulated":false,"activePaths":{"paths":{"password":"require","email":"require","name":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"password":true,"email":true,"name":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"_id":{"$ref":"$[\"$__\"][\"_id\"]"},"name":"mita45","email":"mita34f3@gmail.com","password":"pass","__v":0},"level":"info","message":"","timestamp":1521598574010}
-{"level":"info","message":"connected to database","timestamp":1521598705051}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521598705638}
-{"level":"info","message":"connected to database","timestamp":1521598734870}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521598735415}
-{"level":"error","message":"disconnected from database","timestamp":1521599956221}
-{"level":"info","message":"connected to database","timestamp":1521997404799}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521997405684}
-{"level":"info","message":"connected to database","timestamp":1521997611215}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521997611800}
-{"level":"info","message":"connected to database","timestamp":1521997634038}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521997634615}
-{"level":"info","message":"connected to database","timestamp":1521997755237}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521997755834}
-{"level":"info","message":"connected to database","timestamp":1521998253989}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521998254588}
-{"level":"info","message":"connected to database","timestamp":1521998333300}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521998333866}
-{"level":"info","message":"connected to database","timestamp":1521998601958}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521998602549}
-{"level":"info","message":"connected to database","timestamp":1521998703760}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521998704331}
-{"level":"info","message":"connected to database","timestamp":1521998770868}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521998771426}
-{"level":"info","message":"connected to database","timestamp":1521998793475}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521998794049}
-{"level":"info","message":"connected to database","timestamp":1521998811828}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521998812424}
-{"level":"info","message":"connected to database","timestamp":1521998847024}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521998847585}
-{"level":"info","message":"connected to database","timestamp":1521998914842}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521998915429}
-{"level":"info","message":"connected to database","timestamp":1521998953023}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521998953617}
-{"level":"info","message":"connected to database","timestamp":1521998990885}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521998991451}
-{"level":"info","message":"connected to database","timestamp":1521999033561}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521999034120}
-{"level":"info","message":"connected to database","timestamp":1521999040199}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521999040802}
-{"level":"info","message":"connected to database","timestamp":1521999054162}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521999054728}
-{"level":"info","message":"connected to database","timestamp":1521999070819}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521999071390}
-{"level":"info","message":"connected to database","timestamp":1521999078576}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521999079158}
-{"level":"info","message":"connected to database","timestamp":1521999094276}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521999094840}
-{"level":"info","message":"connected to database","timestamp":1521999263170}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521999263731}
-{"level":"info","message":"connected to database","timestamp":1521999281274}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521999281841}
-{"level":"info","message":"connected to database","timestamp":1521999350441}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521999351020}
-{"level":"info","message":"connected to database","timestamp":1521999396546}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521999397123}
-{"level":"info","message":"connected to database","timestamp":1521999449304}
-{"level":"info","message":"client schema successfully indexed","timestamp":1521999449884}
-{"level":"info","message":"connected to database","timestamp":1522022263987}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522022264576}
-{"level":"info","message":"connected to database","timestamp":1522022472773}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522022473345}
-{"level":"info","message":"connected to database","timestamp":1522022502162}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522022502757}
-{"level":"info","message":"connected to database","timestamp":1522022515038}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522022515611}
-{"level":"info","message":"connected to database","timestamp":1522022738309}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522022738894}
-{"level":"info","message":"connected to database","timestamp":1522022785531}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522022786113}
-{"level":"info","message":"connected to database","timestamp":1522022802746}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522022803330}
-{"level":"info","message":"connected to database","timestamp":1522022837546}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522022838120}
-{"level":"info","message":"connected to database","timestamp":1522022953900}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522022954455}
-{"level":"info","message":"connected to database","timestamp":1522022965566}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522022966152}
-{"level":"info","message":"connected to database","timestamp":1522022999277}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522023001197}
-{"level":"info","message":"connected to database","timestamp":1522023110941}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522023111503}
-{"level":"info","message":"connected to database","timestamp":1522023121971}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522023122549}
-{"level":"error","message":"disconnected from database","timestamp":1522023180170}
-{"level":"info","message":"connected to database","timestamp":1522023182320}
-{"level":"info","message":"connected to database","timestamp":1522023406996}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522023407573}
-{"level":"info","message":"connected to database","timestamp":1522023419972}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522023420564}
-{"level":"info","message":"connected to database","timestamp":1522023441396}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522023442002}
-{"level":"info","message":"connected to database","timestamp":1522023461229}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522023461789}
-{"level":"info","message":"connected to database","timestamp":1522023894087}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522023894657}
-{"level":"info","message":"connected to database","timestamp":1522024009507}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522024010073}
-{"level":"info","message":"connected to database","timestamp":1522024017149}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522024017750}
-{"level":"info","message":"connected to database","timestamp":1522024035872}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522024036429}
-{"level":"info","message":"connected to database","timestamp":1522024045455}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522024046046}
-{"level":"info","message":"connected to database","timestamp":1522024076759}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522024077346}
-{"level":"info","message":"connected to database","timestamp":1522024090146}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522024090727}
-{"level":"info","message":"connected to database","timestamp":1522024513992}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522024514584}
-{"level":"info","message":"connected to database","timestamp":1522025127548}
-{"level":"info","message":"connected to database","timestamp":1522025176894}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522025177466}
-{"level":"error","message":"disconnected from database","timestamp":1522025258378}
-{"level":"info","message":"connected to database","timestamp":1522025405347}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522025405903}
-{"level":"info","message":"connected to database","timestamp":1522025735515}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522025736080}
-{"level":"info","message":"connected to database","timestamp":1522025802944}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522025803561}
-{"level":"info","message":"connected to database","timestamp":1522025945083}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522025945645}
-{"level":"info","message":"connected to database","timestamp":1522026019058}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522026020817}
-{"level":"info","message":"connected to database","timestamp":1522026078656}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522026079230}
-{"level":"info","message":"connected to database","timestamp":1522026159776}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522026160376}
-{"level":"info","message":"connected to database","timestamp":1522026170848}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522026171426}
-{"level":"info","message":"connected to database","timestamp":1522026210420}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522026210996}
-{"level":"info","message":"connected to database","timestamp":1522026231585}
-{"level":"info","message":"connected to database","timestamp":1522026238596}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522026239162}
-{"level":"info","message":"connected to database","timestamp":1522026279622}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522026280206}
-{"level":"info","message":"connected to database","timestamp":1522026341633}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522026342186}
-{"level":"info","message":"connected to database","timestamp":1522026369280}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522026369867}
-{"level":"info","message":"connected to database","timestamp":1522026430717}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522026431306}
-{"level":"info","message":"connected to database","timestamp":1522026622407}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522026622981}
-{"level":"info","message":"connected to database","timestamp":1522026676930}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522026677510}
-{"level":"info","message":"connected to database","timestamp":1522026711145}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522026711756}
-{"level":"info","message":"connected to database","timestamp":1522026735207}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522026735806}
-{"level":"info","message":"connected to database","timestamp":1522026742483}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522026743057}
-{"level":"info","message":"connected to database","timestamp":1522026862678}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522026863252}
-{"level":"info","message":"connected to database","timestamp":1522026875295}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522026875902}
-{"level":"info","message":"connected to database","timestamp":1522026955243}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522026955823}
-{"level":"info","message":"connected to database","timestamp":1522027007305}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522027007882}
-{"level":"info","message":"connected to database","timestamp":1522027047001}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522027047584}
-{"level":"info","message":"connected to database","timestamp":1522027097711}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522027098286}
-{"level":"info","message":"connected to database","timestamp":1522027168139}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522027168720}
-{"level":"info","message":"connected to database","timestamp":1522027183106}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522027183696}
-{"level":"info","message":"connected to database","timestamp":1522027299382}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522027299952}
-{"level":"info","message":"connected to database","timestamp":1522027308242}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522027308823}
-{"level":"info","message":"connected to database","timestamp":1522027375594}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522027376171}
-{"level":"info","message":"connected to database","timestamp":1522027391778}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522027392357}
-{"level":"info","message":"connected to database","timestamp":1522027400317}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522027400899}
-{"level":"info","message":"connected to database","timestamp":1522027675891}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522027676449}
-{"level":"info","message":"connected to database","timestamp":1522027686990}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522027687582}
-{"level":"info","message":"connected to database","timestamp":1522027718655}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522027719239}
-{"level":"info","message":"connected to database","timestamp":1522027871668}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522027872265}
-{"level":"info","message":"connected to database","timestamp":1522027902599}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522027903260}
-{"level":"info","message":"connected to database","timestamp":1522027917908}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522027919896}
-{"level":"info","message":"connected to database","timestamp":1522027986149}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522027986718}
-{"level":"info","message":"connected to database","timestamp":1522028030506}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522028031102}
-{"level":"info","message":"connected to database","timestamp":1522028106072}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522028106661}
-{"level":"info","message":"connected to database","timestamp":1522028145435}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522028146017}
-{"level":"info","message":"connected to database","timestamp":1522028334129}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522028334694}
-{"level":"info","message":"connected to database","timestamp":1522028346057}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522028346618}
-{"level":"info","message":"connected to database","timestamp":1522028362323}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522028362900}
-{"level":"info","message":"connected to database","timestamp":1522028458305}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522028458877}
-{"level":"info","message":"connected to database","timestamp":1522028464944}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522028465540}
-{"level":"info","message":"connected to database","timestamp":1522028498604}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522028499232}
-{"level":"info","message":"connected to database","timestamp":1522028526639}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522028527208}
-{"level":"info","message":"connected to database","timestamp":1522028551050}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522028551638}
-{"level":"info","message":"connected to database","timestamp":1522028616264}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522028616887}
-{"level":"info","message":"connected to database","timestamp":1522028642392}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522028642983}
-{"level":"info","message":"connected to database","timestamp":1522028672692}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522028673295}
-{"level":"info","message":"connected to database","timestamp":1522028726922}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522028727531}
-{"level":"info","message":"connected to database","timestamp":1522028869760}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522028870347}
-{"level":"info","message":"connected to database","timestamp":1522028884217}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522028884777}
-{"level":"info","message":"connected to database","timestamp":1522028902309}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522028902881}
-{"level":"info","message":"connected to database","timestamp":1522029150927}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522029151497}
-{"level":"info","message":"connected to database","timestamp":1522029222325}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522029222910}
-{"level":"info","message":"connected to database","timestamp":1522029241703}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522029242280}
-{"level":"info","message":"connected to database","timestamp":1522029278536}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522029279132}
-{"level":"info","message":"connected to database","timestamp":1522029299331}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522029299913}
-{"level":"info","message":"connected to database","timestamp":1522029309626}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522029310208}
-{"level":"info","message":"connected to database","timestamp":1522029381974}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522029382542}
-{"level":"info","message":"connected to database","timestamp":1522029429113}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522029429673}
-{"level":"info","message":"connected to database","timestamp":1522029472441}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522029473018}
-{"level":"info","message":"connected to database","timestamp":1522029533890}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522029534464}
-{"level":"info","message":"connected to database","timestamp":1522029564809}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522029566850}
-{"level":"info","message":"connected to database","timestamp":1522029647364}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522029647952}
-{"level":"info","message":"connected to database","timestamp":1522029744379}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522029744979}
-{"level":"info","message":"connected to database","timestamp":1522029750274}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522029750832}
-{"level":"info","message":"connected to database","timestamp":1522029809729}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522029810358}
-{"level":"info","message":"connected to database","timestamp":1522029900927}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522029901514}
-{"level":"info","message":"connected to database","timestamp":1522029989007}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522029989553}
-{"level":"info","message":"connected to database","timestamp":1522029998783}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522029999362}
-{"level":"info","message":"connected to database","timestamp":1522030034305}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522030034904}
-{"level":"info","message":"connected to database","timestamp":1522030085667}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522030086224}
-{"level":"info","message":"connected to database","timestamp":1522030357284}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522030357864}
-{"level":"info","message":"connected to database","timestamp":1522030366452}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522030367036}
-{"level":"info","message":"connected to database","timestamp":1522030441158}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522030441717}
-{"level":"info","message":"connected to database","timestamp":1522030597993}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522030598579}
-{"level":"info","message":"connected to database","timestamp":1522030662568}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522030663148}
-{"level":"info","message":"connected to database","timestamp":1522030711128}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522030711717}
-{"level":"info","message":"connected to database","timestamp":1522030768979}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522030769550}
-{"level":"info","message":"connected to database","timestamp":1522030910978}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522030911539}
-{"level":"info","message":"connected to database","timestamp":1522030917788}
-{"level":"info","message":"connected to database","timestamp":1522030921647}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522030922223}
-{"level":"info","message":"connected to database","timestamp":1522030977899}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522030978474}
-{"level":"info","message":"connected to database","timestamp":1522031046615}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031047203}
-{"level":"info","message":"connected to database","timestamp":1522031088503}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031089071}
-{"level":"info","message":"connected to database","timestamp":1522031149717}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031150268}
-{"level":"info","message":"connected to database","timestamp":1522031160636}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031161200}
-{"level":"info","message":"connected to database","timestamp":1522031217364}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031217947}
-{"level":"info","message":"connected to database","timestamp":1522031234851}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031235431}
-{"level":"info","message":"connected to database","timestamp":1522031273611}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031275389}
-{"level":"info","message":"connected to database","timestamp":1522031321609}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031322184}
-{"level":"info","message":"connected to database","timestamp":1522031372826}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031373406}
-{"level":"info","message":"connected to database","timestamp":1522031395825}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031396383}
-{"level":"info","message":"connected to database","timestamp":1522031628307}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031628890}
-{"level":"info","message":"connected to database","timestamp":1522031650193}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031650747}
-{"level":"info","message":"connected to database","timestamp":1522031661427}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031662006}
-{"level":"info","message":"connected to database","timestamp":1522031685851}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031686427}
-{"level":"info","message":"connected to database","timestamp":1522031723083}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031723681}
-{"level":"info","message":"connected to database","timestamp":1522031745270}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031745883}
-{"level":"info","message":"connected to database","timestamp":1522031763364}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031763938}
-{"level":"info","message":"connected to database","timestamp":1522031830007}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031830594}
-{"level":"info","message":"connected to database","timestamp":1522031930930}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031931518}
-{"level":"info","message":"connected to database","timestamp":1522031953529}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031954095}
-{"level":"info","message":"connected to database","timestamp":1522031961904}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031962474}
-{"level":"info","message":"connected to database","timestamp":1522031982048}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522031982619}
-{"level":"info","message":"connected to database","timestamp":1522031999952}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522032000518}
-{"level":"info","message":"connected to database","timestamp":1522032010098}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522032010691}
-{"level":"info","message":"connected to database","timestamp":1522032039335}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522032039917}
-{"level":"info","message":"connected to database","timestamp":1522032084805}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522032085404}
-{"level":"info","message":"connected to database","timestamp":1522032171794}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522032172365}
-{"level":"info","message":"connected to database","timestamp":1522032191969}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522032192545}
-{"level":"error","message":"disconnected from database","timestamp":1522032333694}
-{"level":"info","message":"connected to database","timestamp":1522040558439}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522040559398}
-{"level":"info","message":"connected to database","timestamp":1522040636689}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522040637289}
-{"level":"info","message":"connected to database","timestamp":1522040893908}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522040894497}
-{"level":"info","message":"connected to database","timestamp":1522040904166}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522040904770}
-{"level":"info","message":"connected to database","timestamp":1522040980731}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522040981297}
-{"level":"info","message":"connected to database","timestamp":1522040988613}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522040989185}
-{"level":"info","message":"connected to database","timestamp":1522041066024}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522041066586}
-{"level":"info","message":"connected to database","timestamp":1522041137239}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522041137829}
-{"level":"info","message":"connected to database","timestamp":1522041193584}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522041194160}
-{"level":"info","message":"connected to database","timestamp":1522041208455}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522041209016}
-{"level":"info","message":"connected to database","timestamp":1522041512482}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522041513035}
-{"level":"info","message":"connected to database","timestamp":1522042170586}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522042171164}
-{"level":"info","message":"connected to database","timestamp":1522042183014}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522042183568}
-{"level":"info","message":"connected to database","timestamp":1522042508180}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522042508736}
-{"level":"info","message":"connected to database","timestamp":1522042531642}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522042532196}
-{"level":"info","message":"connected to database","timestamp":1522042615642}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522042616239}
-{"level":"info","message":"connected to database","timestamp":1522042625244}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522042625849}
-{"level":"info","message":"connected to database","timestamp":1522042668072}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522042668642}
-{"level":"info","message":"connected to database","timestamp":1522042699506}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522042700093}
-{"level":"info","message":"connected to database","timestamp":1522042739351}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522042739916}
-{"level":"info","message":"connected to database","timestamp":1522042760419}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522042760990}
-{"level":"info","message":"connected to database","timestamp":1522042770608}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522042771172}
-{"level":"info","message":"connected to database","timestamp":1522042777275}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522042777829}
-{"level":"info","message":"connected to database","timestamp":1522042792381}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522042792942}
-{"level":"info","message":"connected to database","timestamp":1522042813726}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522042814311}
-{"level":"info","message":"connected to database","timestamp":1522042875720}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522042876283}
-{"level":"info","message":"connected to database","timestamp":1522042930023}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522042930593}
-{"level":"info","message":"connected to database","timestamp":1522043012867}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522043013457}
-{"level":"info","message":"connected to database","timestamp":1522043021102}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522043021685}
-{"level":"info","message":"connected to database","timestamp":1522043074383}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522043074969}
-{"level":"info","message":"connected to database","timestamp":1522043144804}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522043145379}
-{"level":"info","message":"connected to database","timestamp":1522043172908}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522043173475}
-{"level":"info","message":"connected to database","timestamp":1522043297896}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522043298483}
-{"level":"info","message":"connected to database","timestamp":1522043447949}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522043448549}
-{"level":"info","message":"connected to database","timestamp":1522043461327}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522043461921}
-{"level":"info","message":"connected to database","timestamp":1522045531900}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522045532500}
-{"level":"info","message":"connected to database","timestamp":1522045557959}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522045558532}
-{"level":"info","message":"connected to database","timestamp":1522045571484}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522045572065}
-{"level":"info","message":"connected to database","timestamp":1522045579111}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522045579702}
-{"level":"info","message":"connected to database","timestamp":1522045603622}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522045604207}
-{"level":"info","message":"connected to database","timestamp":1522045636429}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522045637008}
-{"level":"info","message":"connected to database","timestamp":1522045647957}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522045648516}
-{"level":"info","message":"connected to database","timestamp":1522046060513}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522046061113}
-{"level":"info","message":"connected to database","timestamp":1522046080250}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522046080850}
-{"level":"error","message":"disconnected from database","timestamp":1522046282590}
-{"message":"an error occured in the database connection ","name":"MongoNetworkError","stack":"MongoNetworkError: failed to connect to server [ds119449.mlab.com:19449] on first connect [MongoNetworkError: connection 0 to ds119449.mlab.com:19449 timed out]\n    at Pool.<anonymous> (C:\\Users\\user\\Google Drive\\IEM\\sem8\\design lab\\code\\node_modules\\mongodb-core\\lib\\topologies\\server.js:503:11)\n    at Pool.emit (events.js:127:13)\n    at Connection.<anonymous> (C:\\Users\\user\\Google Drive\\IEM\\sem8\\design lab\\code\\node_modules\\mongodb-core\\lib\\connection\\pool.js:326:12)\n    at Object.onceWrapper (events.js:219:13)\n    at Connection.emit (events.js:127:13)\n    at Socket.<anonymous> (C:\\Users\\user\\Google Drive\\IEM\\sem8\\design lab\\code\\node_modules\\mongodb-core\\lib\\connection\\connection.js:256:10)\n    at Object.onceWrapper (events.js:219:13)\n    at Socket.emit (events.js:127:13)\n    at Socket._onTimeout (net.js:411:8)\n    at ontimeout (timers.js:460:11)\n    at tryOnTimeout (timers.js:298:5)\n    at Timer.listOnTimeout (timers.js:261:5)","level":"error","timestamp":1522047911616}
-{"level":"info","message":"connected to database","timestamp":1522049013856}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522049014688}
-{"level":"info","message":"connected to database","timestamp":1522049473690}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522049474243}
-{"level":"info","message":"connected to database","timestamp":1522059282890}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522059283458}
-{"level":"info","message":"connected to database","timestamp":1522313013489}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522313014203}
-{"level":"info","message":"connected to database","timestamp":1522313264884}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522313265438}
-{"level":"info","message":"connected to database","timestamp":1522313347987}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522313348573}
-{"level":"info","message":"connected to database","timestamp":1522313373752}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522313374363}
-{"level":"info","message":"connected to database","timestamp":1522313490306}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522313491075}
-{"level":"info","message":"connected to database","timestamp":1522313626042}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522313626660}
-{"level":"info","message":"connected to database","timestamp":1522313746835}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522313748216}
-{"level":"info","message":"connected to database","timestamp":1522313813996}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522313814620}
-{"level":"info","message":"connected to database","timestamp":1522314235805}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522314236550}
-{"level":"info","message":"connected to database","timestamp":1522314269655}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522314270247}
-{"level":"info","message":"connected to database","timestamp":1522314292989}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522314293581}
-{"level":"info","message":"connected to database","timestamp":1522314527238}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522314527796}
-{"level":"info","message":"connected to database","timestamp":1522314615793}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522314616472}
-{"level":"info","message":"connected to database","timestamp":1522314684146}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522314684743}
-{"level":"info","message":"connected to database","timestamp":1522314745153}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522314745742}
-{"level":"info","message":"connected to database","timestamp":1522314891009}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522314891741}
-{"level":"info","message":"connected to database","timestamp":1522315145280}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522315145888}
-{"level":"info","message":"connected to database","timestamp":1522315152358}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522315152954}
-{"level":"info","message":"connected to database","timestamp":1522315162748}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522315163340}
-{"level":"info","message":"connected to database","timestamp":1522765344627}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522765346569}
-{"level":"info","message":"connected to database","timestamp":1522765564530}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522765565511}
-{"level":"info","message":"connected to database","timestamp":1522765617139}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522765619180}
-{"level":"info","message":"connected to database","timestamp":1522765637819}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522765638375}
-{"level":"info","message":"connected to database","timestamp":1522765667172}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522765669254}
-{"level":"info","message":"connected to database","timestamp":1522765761077}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522765762500}
-{"level":"info","message":"connected to database","timestamp":1522765809907}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522765811814}
-{"level":"info","message":"connected to database","timestamp":1522765844179}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522765846217}
-{"level":"info","message":"connected to database","timestamp":1522765925903}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522765927558}
-{"level":"info","message":"connected to database","timestamp":1522765949047}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522765951175}
-{"level":"info","message":"connected to database","timestamp":1522765976619}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522765977509}
-{"level":"info","message":"connected to database","timestamp":1522766102225}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522766104200}
-{"level":"info","message":"connected to database","timestamp":1522766116210}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522766118309}
-{"level":"info","message":"connected to database","timestamp":1522766158195}
-{"level":"info","message":"connected to database","timestamp":1522766165205}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522766166890}
-{"level":"info","message":"connected to database","timestamp":1522766190253}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522766193162}
-{"level":"info","message":"connected to database","timestamp":1522766274005}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522766275556}
-{"level":"info","message":"connected to database","timestamp":1522766308726}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522766311207}
-{"level":"info","message":"connected to database","timestamp":1522766381232}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522766383175}
-{"level":"info","message":"connected to database","timestamp":1522766522194}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522766524168}
-{"level":"info","message":"connected to database","timestamp":1522766557203}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522766557957}
-{"level":"info","message":"connected to database","timestamp":1522766687181}
-{"level":"info","message":"connected to database","timestamp":1522766698230}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522766706182}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522766707173}
-{"level":"info","message":"connected to database","timestamp":1522766770705}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522766793528}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522766793531}
-{"level":"info","message":"connected to database","timestamp":1522766839191}
-{"level":"info","message":"connected to database","timestamp":1522766847218}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522766856177}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522766856181}
-{"level":"info","message":"error in registering peermotivator in peermotivator.js WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \\\"sdfsdaf@gmail.com\\\" }\",\"op\":{\"_id\":\"5ac3941d7e2fbc4536a5e2fd\",\"name\":\"sdfas\",\"email\":\"sdfsdaf@gmail.com\",\"password\":\"sdfsad\",\"__v\":0}})","timestamp":1522766878157}
-{"level":"info","message":"connected to database","timestamp":1522767003220}
-{"level":"info","message":"connected to database","timestamp":1522767010229}
-{"level":"info","message":"error in registering peermotivator in peermotivator.js WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \\\"sdfsdaf@gmail.com\\\" }\",\"op\":{\"_id\":\"5ac394a057ca0345e1d7a2ae\",\"name\":\"sdfas\",\"email\":\"sdfsdaf@gmail.com\",\"password\":\"sdfsad\",\"__v\":0}})","timestamp":1522767019217}
-{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \"sdfsdaf@gmail.com\" }","op":{"_id":"5ac394a057ca0345e1d7a2ae","name":"sdfas","email":"sdfsdaf@gmail.com","password":"sdfsad","__v":0}}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767019236}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522767019237}
-{"level":"info","message":"connected to database","timestamp":1522767035222}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522767043175}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767043179}
-{"level":"info","message":"connected to database","timestamp":1522767101201}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522767110183}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767110187}
-{"level":"info","message":"connected to database","timestamp":1522767230226}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767238833}
-{"level":"info","message":"error in registering peermotivator in peermotivator.js WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \\\"sdfsdaf@gmail.com\\\" }\",\"op\":{\"_id\":\"5ac39583d3ccdb46e63c3e1a\",\"name\":\"sdfas\",\"email\":\"sdfsdaf@gmail.com\",\"password\":\"sdfsad\",\"__v\":0}})","timestamp":1522767238845}
-{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \"sdfsdaf@gmail.com\" }","op":{"_id":"5ac39583d3ccdb46e63c3e1a","name":"sdfas","email":"sdfsdaf@gmail.com","password":"sdfsad","__v":0}}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522767238855}
-{"level":"info","message":"connected to database","timestamp":1522767341662}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767351653}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522767351655}
-{"level":"info","message":"error in registering peermotivator in peermotivator.js WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \\\"sdfsdaf@gmail.com\\\" }\",\"op\":{\"_id\":\"5ac395f75fbf6047438a69c9\",\"name\":\"sdfas\",\"email\":\"sdfsdaf@gmail.com\",\"password\":\"sdfsad\",\"__v\":0}})","timestamp":1522767351702}
-{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \"sdfsdaf@gmail.com\" }","op":{"_id":"5ac395f75fbf6047438a69c9","name":"sdfas","email":"sdfsdaf@gmail.com","password":"sdfsad","__v":0}}
-{"level":"info","message":"connected to database","timestamp":1522767411537}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767418054}
-{"level":"info","message":"error in registering peermotivator in peermotivator.js WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \\\"sdfsdaf@gmail.com\\\" }\",\"op\":{\"_id\":\"5ac3963873b47b47af4d92ce\",\"name\":\"sdfas\",\"email\":\"sdfsdaf@gmail.com\",\"password\":\"sdfsad\",\"__v\":0}})","timestamp":1522767418063}
-{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \"sdfsdaf@gmail.com\" }","op":{"_id":"5ac3963873b47b47af4d92ce","name":"sdfas","email":"sdfsdaf@gmail.com","password":"sdfsad","__v":0}}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522767418098}
-{"level":"info","message":"connected to database","timestamp":1522767663190}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767671176}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522767671181}
-{"level":"info","message":"connected to database","timestamp":1522767694598}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522767696902}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767698127}
-{"level":"info","message":"connected to database","timestamp":1522767706194}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522767712560}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767712564}
-{"message":"Cast to string failed for value \"{ name: 'sdfas', email: 'sdfsdaf@gmail.com', password: 'sdfsad' }\" at path \"email\" for model \"peermotivator\"","stack":"CastError: Cast to string failed for value \"{ name: 'sdfas', email: 'sdfsdaf@gmail.com', password: 'sdfsad' }\" at path \"email\" for model \"peermotivator\"\n    at MongooseError.CastError (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/error/cast.js:27:11)\n    at SchemaString.cast (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schema/string.js:460:9)\n    at SchemaString.SchemaType.applySetters (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schematype.js:724:12)\n    at SchemaString.SchemaType._castForQuery (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schematype.js:1095:15)\n    at SchemaString.castForQuery (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schema/string.js:515:15)\n    at SchemaString.SchemaType.castForQueryWrapper (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schematype.js:1064:15)\n    at cast (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/cast.js:245:34)\n    at Query.cast (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/query.js:3198:12)\n    at Query._castConditions (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/query.js:1278:10)\n    at Query._findOne (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/query.js:1494:8)\n    at Query.findOne (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/query.js:1611:8)\n    at Function.findOne (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/model.js:1500:13)\n    at Promise (/home/ubuntu/Desktop/design lab/join-us-design-lab/model/users/peermotivators/peermotivator.js:32:15)\n    at Object.module.exports.doesEmailExist (/home/ubuntu/Desktop/design lab/join-us-design-lab/model/users/peermotivators/peermotivator.js:31:12)\n    at router.post (/home/ubuntu/Desktop/design lab/join-us-design-lab/controller/admindashboard/registerpeermotivator.js:11:5)\n    at Layer.handle [as handle_request] (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/express/lib/router/layer.js:95:5)","name":"CastError","stringValue":"\"{ name: 'sdfas', email: 'sdfsdaf@gmail.com', password: 'sdfsad' }\"","kind":"string","value":{"name":"sdfas","email":"sdfsdaf@gmail.com","password":"sdfsad"},"path":"email","level":"error","timestamp":1522767714876}
-{"level":"info","message":"connected to database","timestamp":1522767781840}
-{"message":"Cast to string failed for value \"{ name: 'sdfas', email: 'sdfsdaf@gmail.com', password: 'sdfsad' }\" at path \"email\" for model \"peermotivator\"","stack":"CastError: Cast to string failed for value \"{ name: 'sdfas', email: 'sdfsdaf@gmail.com', password: 'sdfsad' }\" at path \"email\" for model \"peermotivator\"\n    at MongooseError.CastError (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/error/cast.js:27:11)\n    at SchemaString.cast (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schema/string.js:460:9)\n    at SchemaString.SchemaType.applySetters (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schematype.js:724:12)\n    at SchemaString.SchemaType._castForQuery (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schematype.js:1095:15)\n    at SchemaString.castForQuery (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schema/string.js:515:15)\n    at SchemaString.SchemaType.castForQueryWrapper (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schematype.js:1064:15)\n    at cast (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/cast.js:245:34)\n    at Query.cast (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/query.js:3198:12)\n    at Query._castConditions (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/query.js:1278:10)\n    at Query._findOne (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/query.js:1494:8)\n    at Query.findOne (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/query.js:1611:8)\n    at Function.findOne (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/model.js:1500:13)\n    at Promise (/home/ubuntu/Desktop/design lab/join-us-design-lab/model/users/peermotivators/peermotivator.js:32:15)\n    at Object.module.exports.doesEmailExist (/home/ubuntu/Desktop/design lab/join-us-design-lab/model/users/peermotivators/peermotivator.js:31:12)\n    at router.post (/home/ubuntu/Desktop/design lab/join-us-design-lab/controller/admindashboard/registerpeermotivator.js:11:5)\n    at Layer.handle [as handle_request] (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/express/lib/router/layer.js:95:5)","name":"CastError","stringValue":"\"{ name: 'sdfas', email: 'sdfsdaf@gmail.com', password: 'sdfsad' }\"","kind":"string","value":{"name":"sdfas","email":"sdfsdaf@gmail.com","password":"sdfsad"},"path":"email","level":"error","timestamp":1522767784531}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767788517}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522767788519}
-{"level":"info","message":"connected to database","timestamp":1522767824438}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522767835154}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767835158}
-{"level":"info","message":"connected to database","timestamp":1522767874483}
-{"level":"info","message":"connected to database","timestamp":1522767885201}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522767892377}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767892380}
-{"level":"info","message":"connected to database","timestamp":1522767906227}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767912910}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522767912917}
-{"level":"info","message":"connected to database","timestamp":1522767951327}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767964200}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522767964204}
-{"level":"info","message":"connected to database","timestamp":1522767978704}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522767998196}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522767998200}
-{"level":"info","message":"connected to database","timestamp":1522768021203}
-{"level":"info","message":"connected to database","timestamp":1522768032212}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522768036954}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522768036961}
-{"level":"info","message":"error in registering peermotivator in peermotivator.js ValidationError: name: Path `name` is required., email: Path `email` is required., password: Path `password` is required.","timestamp":1522768038253}
-{"message":"peermotivator validation failed: name: Path `name` is required., email: Path `email` is required., password: Path `password` is required.","errors":{"name":{"message":"Path `name` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"name"},"kind":"required","path":"name","$isValidatorError":true},"email":{"message":"Path `email` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"email"},"kind":"required","path":"email","$isValidatorError":true},"password":{"message":"Path `password` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"password"},"kind":"required","path":"password","$isValidatorError":true}},"_message":"peermotivator validation failed","stack":"ValidationError: peermotivator validation failed: name: Path `name` is required., email: Path `email` is required., password: Path `password` is required.\n    at MongooseError.ValidationError (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/error/validation.js:27:11)\n    at model.Document.invalidate (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/document.js:1751:32)\n    at /home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/document.js:1623:17\n    at /home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schematype.js:808:9\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)\n    at process._tickCallback (internal/process/next_tick.js:104:9)","name":"ValidationError","level":"error","timestamp":1522768038255}
-{"level":"info","message":"connected to database","timestamp":1522768181359}
-{"level":"info","message":"error in registering peermotivator in peermotivator.js ValidationError: name: Path `name` is required., email: Path `email` is required., password: Path `password` is required.","timestamp":1522768188292}
-{"message":"peermotivator validation failed: name: Path `name` is required., email: Path `email` is required., password: Path `password` is required.","errors":{"name":{"message":"Path `name` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"name"},"kind":"required","path":"name","$isValidatorError":true},"email":{"message":"Path `email` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"email"},"kind":"required","path":"email","$isValidatorError":true},"password":{"message":"Path `password` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"password"},"kind":"required","path":"password","$isValidatorError":true}},"_message":"peermotivator validation failed","stack":"ValidationError: peermotivator validation failed: name: Path `name` is required., email: Path `email` is required., password: Path `password` is required.\n    at MongooseError.ValidationError (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/error/validation.js:27:11)\n    at model.Document.invalidate (/home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/document.js:1751:32)\n    at /home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/document.js:1623:17\n    at /home/ubuntu/Desktop/design lab/join-us-design-lab/node_modules/mongoose/lib/schematype.js:808:9\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)\n    at process._tickCallback (internal/process/next_tick.js:104:9)","name":"ValidationError","level":"error","timestamp":1522768188294}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522768188313}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522768188317}
-{"level":"info","message":"connected to database","timestamp":1522768239191}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522768247075}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522768247079}
-{"level":"info","message":"error in registering peermotivator in peermotivator.js WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \\\"sdfsdaf@gmail.com\\\" }\",\"op\":{\"_id\":\"5ac39977dbfb294c681e8cff\",\"name\":\"sdfas\",\"email\":\"sdfsdaf@gmail.com\",\"password\":\"sdfsad\",\"__v\":0}})","timestamp":1522768248209}
-{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: juyrna.peermotivators.$email_1 dup key: { : \"sdfsdaf@gmail.com\" }","op":{"_id":"5ac39977dbfb294c681e8cff","name":"sdfas","email":"sdfsdaf@gmail.com","password":"sdfsad","__v":0}}
-{"level":"info","message":"connected to database","timestamp":1522768290222}
-{"level":"info","message":"connected to database","timestamp":1522768302197}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522768309193}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522768309199}
-{"level":"info","message":"connected to database","timestamp":1522768337936}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522768349192}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522768353190}
-{"level":"info","message":"connected to database","timestamp":1522768433171}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522768440714}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522768440717}
-{"level":"info","message":"connected to database","timestamp":1522768497203}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522768504873}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522768504882}
-{"level":"info","message":"connected to database","timestamp":1522768575312}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522768595177}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522768595181}
-{"level":"info","message":"connected to database","timestamp":1522768677713}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522768685192}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522768685225}
-{"level":"info","message":"connected to database","timestamp":1522769172372}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522769184802}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522769187174}
-{"level":"info","message":"connected to database","timestamp":1522769249208}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522769256997}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522769257001}
-{"level":"info","message":"connected to database","timestamp":1522769387384}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522769389882}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522769392141}
-{"level":"info","message":"connected to database","timestamp":1522769494779}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522769504200}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522769504204}
-{"level":"info","message":"connected to database","timestamp":1522769540290}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522769544344}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522769544347}
-{"level":"info","message":"connected to database","timestamp":1522769568433}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522769576202}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522769576206}
-{"level":"info","message":"connected to database","timestamp":1522769677169}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522769679783}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522769682297}
-{"level":"info","message":"connected to database","timestamp":1522769697204}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522769705466}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522769705475}
-{"level":"info","message":"connected to database","timestamp":1522769732180}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522769739178}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522769739181}
-{"level":"info","message":"connected to database","timestamp":1522769791184}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522769802223}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522769802226}
-{"level":"info","message":"connected to database","timestamp":1522771073511}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522771080537}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522771080541}
-{"level":"info","message":"connected to database","timestamp":1522771116525}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522771123258}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522771123266}
-{"level":"info","message":"connected to database","timestamp":1522771270759}
-{"level":"info","message":"connected to database","timestamp":1522771278223}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522771279710}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522771280333}
-{"level":"info","message":"connected to database","timestamp":1522771320547}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522771328209}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522771328220}
-{"level":"info","message":"connected to database","timestamp":1522771475529}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522771484590}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522771484603}
-{"level":"info","message":"connected to database","timestamp":1522771548212}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522771553689}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522771553739}
-{"level":"info","message":"connected to database","timestamp":1522773907016}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522773909528}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522773915520}
-{"level":"info","message":"connected to database","timestamp":1522773995528}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522774004539}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522774004544}
-{"level":"info","message":"connected to database","timestamp":1522774200225}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522774202598}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522774205041}
-{"level":"info","message":"connected to database","timestamp":1522774402331}
-{"level":"info","message":"connected to database","timestamp":1522774410045}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522774412880}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522774417208}
-{"level":"info","message":"connected to database","timestamp":1522774472219}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522774480617}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522774480623}
-{"level":"info","message":"connected to database","timestamp":1522774495507}
-{"level":"info","message":"connected to database","timestamp":1522774506641}
-{"level":"info","message":"client schema successfully indexed","timestamp":1522774509249}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1522774509857}
-{"level":"info","message":"connected to database","timestamp":1523037696509}
-{"level":"info","message":"client schema successfully indexed","timestamp":1523037698764}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523037699092}
-{"level":"info","message":"connected to database","timestamp":1523038286663}
-{"level":"info","message":"connected to database","timestamp":1523155362490}
-{"level":"info","message":"client schema successfully indexed","timestamp":1523155363958}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523155364224}
-{"level":"info","message":"connected to database","timestamp":1523155669341}
-{"level":"info","message":"client schema successfully indexed","timestamp":1523155670786}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523155671108}
-{"level":"info","message":"connected to database","timestamp":1523155703097}
-{"level":"info","message":"client schema successfully indexed","timestamp":1523155704597}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523155704909}
-{"level":"info","message":"connected to database","timestamp":1523155725046}
-{"level":"info","message":"client schema successfully indexed","timestamp":1523155726519}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523155726811}
-{"level":"info","message":"connected to database","timestamp":1523155744028}
-{"level":"info","message":"client schema successfully indexed","timestamp":1523155745653}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523155745935}
-{"level":"info","message":"connected to database","timestamp":1523156123705}
-{"level":"info","message":"client schema successfully indexed","timestamp":1523156125122}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523156125402}
-{"level":"info","message":"connected to database","timestamp":1523156206524}
-{"level":"info","message":"client schema successfully indexed","timestamp":1523156212113}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523156212134}
-{"level":"info","message":"connected to database","timestamp":1523158220403}
-{"level":"info","message":"client schema successfully indexed","timestamp":1523158221856}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523158222153}
-{"level":"info","message":"connected to database","timestamp":1523159429008}
-{"level":"info","message":"client schema successfully indexed","timestamp":1523159430473}
-{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523159430774}
-{"level":"error","message":"disconnected from database","timestamp":1523162014140}
+{"level":"error","message":"CastError: Cast to string failed for value \"{ email: 'bishoatiem@gmail.cim', password: 'pass' }\" at path \"email\" for model \"clients\"\n    at new CastError (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\error\\cast.js:27:11)\n    at SchemaString.cast (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schema\\string.js:460:9)\n    at SchemaString.SchemaType.applySetters (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:724:12)\n    at SchemaString.SchemaType._castForQuery (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:1095:15)\n    at SchemaString.castForQuery (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schema\\string.js:515:15)\n    at SchemaString.SchemaType.castForQueryWrapper (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:1064:15)\n    at cast (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\cast.js:245:34)\n    at model.Query.Query.cast (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\query.js:3198:12)\n    at model.Query.Query._castConditions (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\query.js:1278:10)\n    at model.Query.Query._findOne (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\query.js:1494:8)\n    at model.Query.Query.findOne (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\query.js:1611:8)\n    at Function.findOne (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\model.js:1500:13)\n    at Promise (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\model\\users\\clients\\client.js:43:15)\n    at new Promise (<anonymous>)\n    at Object.module.exports.getPasswordForEmail (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\model\\users\\clients\\client.js:42:12)\n    at Promise (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\login\\loginClient.js:22:20)","timestamp":1523171374621}
+{"level":"error","message":"CastError: Cast to string failed for value \"{ email: 'bishoatiem@gmail.cim', password: 'pass' }\" at path \"email\" for model \"clients\"\n    at new CastError (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\error\\cast.js:27:11)\n    at SchemaString.cast (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schema\\string.js:460:9)\n    at SchemaString.SchemaType.applySetters (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:724:12)\n    at SchemaString.SchemaType._castForQuery (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:1095:15)\n    at SchemaString.castForQuery (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schema\\string.js:515:15)\n    at SchemaString.SchemaType.castForQueryWrapper (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:1064:15)\n    at cast (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\cast.js:245:34)\n    at model.Query.Query.cast (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\query.js:3198:12)\n    at model.Query.Query._castConditions (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\query.js:1278:10)\n    at model.Query.Query._findOne (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\query.js:1494:8)\n    at model.Query.Query.findOne (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\query.js:1611:8)\n    at Function.findOne (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\model.js:1500:13)\n    at Promise (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\model\\users\\clients\\client.js:43:15)\n    at new Promise (<anonymous>)\n    at Object.module.exports.getPasswordForEmail (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\model\\users\\clients\\client.js:42:12)\n    at Promise (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\login\\loginClient.js:22:20)","timestamp":1523171374622}
+{"level":"info","message":"connected to database","timestamp":1523171541697}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523171543133}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523171543423}
+{"level":"info","message":"connected to database","timestamp":1523171557617}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523171559079}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523171559375}
+{"level":"info","message":"connected to database","timestamp":1523171569793}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523171572473}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523171572479}
+{"level":"info","message":"connected to database","timestamp":1523171601761}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523171603273}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523171603579}
+{"level":"info","message":"connected to database","timestamp":1523171638641}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523171641362}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523171641366}
+{"level":"info","message":"connected to database","timestamp":1523171674733}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523171676188}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523171676453}
+{"level":"error","message":"CastError: Cast to string failed for value \"{ email: 'bishoatiem@gmail.cim', password: 'pass' }\" at path \"email\" for model \"peermotivator\"\n    at new CastError (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\error\\cast.js:27:11)\n    at SchemaString.cast (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schema\\string.js:460:9)\n    at SchemaString.SchemaType.applySetters (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:724:12)\n    at SchemaString.SchemaType._castForQuery (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:1095:15)\n    at SchemaString.castForQuery (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schema\\string.js:515:15)\n    at SchemaString.SchemaType.castForQueryWrapper (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:1064:15)\n    at cast (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\cast.js:245:34)\n    at model.Query.Query.cast (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\query.js:3198:12)\n    at model.Query.Query._castConditions (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\query.js:1278:10)\n    at model.Query.Query._findOne (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\query.js:1494:8)\n    at model.Query.Query.findOne (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\query.js:1611:8)\n    at Function.findOne (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\model.js:1500:13)\n    at Promise (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\model\\users\\peermotivators\\peermotivator.js:67:15)\n    at new Promise (<anonymous>)\n    at Object.module.exports.getPasswordForEmail (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\model\\users\\peermotivators\\peermotivator.js:66:12)\n    at Promise (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\login\\loginPeerMotivator.js:18:16)","timestamp":1523171683117}
+{"level":"error","message":"CastError: Cast to string failed for value \"{ email: 'bishoatiem@gmail.cim', password: 'pass' }\" at path \"email\" for model \"peermotivator\"\n    at new CastError (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\error\\cast.js:27:11)\n    at SchemaString.cast (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schema\\string.js:460:9)\n    at SchemaString.SchemaType.applySetters (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:724:12)\n    at SchemaString.SchemaType._castForQuery (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:1095:15)\n    at SchemaString.castForQuery (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schema\\string.js:515:15)\n    at SchemaString.SchemaType.castForQueryWrapper (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:1064:15)\n    at cast (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\cast.js:245:34)\n    at model.Query.Query.cast (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\query.js:3198:12)\n    at model.Query.Query._castConditions (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\query.js:1278:10)\n    at model.Query.Query._findOne (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\query.js:1494:8)\n    at model.Query.Query.findOne (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\query.js:1611:8)\n    at Function.findOne (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\model.js:1500:13)\n    at Promise (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\model\\users\\peermotivators\\peermotivator.js:67:15)\n    at new Promise (<anonymous>)\n    at Object.module.exports.getPasswordForEmail (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\model\\users\\peermotivators\\peermotivator.js:66:12)\n    at Promise (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\login\\loginPeerMotivator.js:18:16)","timestamp":1523171683118}
+{"level":"info","message":"connected to database","timestamp":1523171715577}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523171717057}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523171717338}
+{"level":"info","message":"connected to database","timestamp":1523171747495}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523171750083}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523171750086}
+{"level":"info","message":"connected to database","timestamp":1523171819469}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523171820905}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523171821202}
+{"level":"info","message":"connected to database","timestamp":1523171868448}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523171869874}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523171870150}
+{"level":"info","message":"connected to database","timestamp":1523171931010}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523171932465}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523171932761}
+{"level":"info","message":"connected to database","timestamp":1523171969639}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523171971145}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523171972377}
+{"level":"info","message":"connected to database","timestamp":1523171989687}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523171992332}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523171992341}
+{"level":"info","message":"connected to database","timestamp":1523172002915}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523172004352}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523172004623}
+{"level":"info","message":"connected to database","timestamp":1523172018018}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523172020559}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523172020560}
+{"level":"info","message":"connected to database","timestamp":1523172030416}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523172031810}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523172032079}
+{"level":"info","message":"connected to database","timestamp":1523172053784}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523172056377}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523172056387}
+{"level":"info","message":"connected to database","timestamp":1523172086114}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523172088696}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523172088698}
+{"level":"info","message":"connected to database","timestamp":1523172105880}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523172108433}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523172108435}
+{"level":"info","message":"connected to database","timestamp":1523172136304}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523172138863}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523172139895}
+{"level":"info","message":"connected to database","timestamp":1523172150174}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523172152750}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523172153609}
+{"level":"info","message":"connected to database","timestamp":1523172242848}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523172244360}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523172244677}
+{"level":"info","message":"connected to database","timestamp":1523172387515}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523172388897}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523172389177}
+{"level":"info","message":"connected to database","timestamp":1523172442562}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523172443968}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523172444245}
+{"level":"info","message":"connected to database","timestamp":1523172457243}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523172458711}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523172459025}
+{"level":"info","message":"connected to database","timestamp":1523172530297}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523172531698}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523172531960}
+{"level":"info","message":"connected to database","timestamp":1523172585904}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523172587347}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523172587648}
+{"level":"info","message":"connected to database","timestamp":1523172596076}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523172597608}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523172597896}
+{"level":"info","message":"connected to database","timestamp":1523172678428}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523172679893}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523172680184}
+{"message":"an error occured in the database connection ","name":"MongoNetworkError","stack":"MongoNetworkError: failed to connect to server [ds119449.mlab.com:19449] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND ds119449.mlab.com ds119449.mlab.com:19449]\n    at Pool.<anonymous> (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongodb-core\\lib\\topologies\\server.js:503:11)\n    at Pool.emit (events.js:180:13)\n    at Connection.<anonymous> (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongodb-core\\lib\\connection\\pool.js:326:12)\n    at Object.onceWrapper (events.js:272:13)\n    at Connection.emit (events.js:180:13)\n    at Socket.<anonymous> (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongodb-core\\lib\\connection\\connection.js:245:50)\n    at Object.onceWrapper (events.js:272:13)\n    at Socket.emit (events.js:180:13)\n    at emitErrorNT (internal/streams/destroy.js:64:8)\n    at process._tickCallback (internal/process/next_tick.js:178:19)","level":"error","timestamp":1523172974245}
+{"message":"an error occured in the database connection ","name":"MongoNetworkError","stack":"MongoNetworkError: failed to connect to server [ds119449.mlab.com:19449] on first connect [MongoNetworkError: connect ETIMEDOUT 54.82.212.229:19449]\n    at Pool.<anonymous> (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongodb-core\\lib\\topologies\\server.js:503:11)\n    at Pool.emit (events.js:180:13)\n    at Connection.<anonymous> (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongodb-core\\lib\\connection\\pool.js:326:12)\n    at Object.onceWrapper (events.js:272:13)\n    at Connection.emit (events.js:180:13)\n    at Socket.<anonymous> (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongodb-core\\lib\\connection\\connection.js:245:50)\n    at Object.onceWrapper (events.js:272:13)\n    at Socket.emit (events.js:180:13)\n    at emitErrorNT (internal/streams/destroy.js:64:8)\n    at process._tickCallback (internal/process/next_tick.js:178:19)","level":"error","timestamp":1523173050744}
+{"level":"info","message":"connected to database","timestamp":1523173090263}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523173091747}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523173092805}
+{"level":"info","message":"connected to database","timestamp":1523173114255}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523173115692}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523173115964}
+{"level":"error","message":"TypeError: Cannot read property 'password' of null\n    at pm.getPasswordForEmail.then.doc (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\login\\loginPeerMotivator.js:25:37)\n    at <anonymous>","timestamp":1523173128070}
+{"level":"error","message":"TypeError: Cannot read property 'password' of null\n    at pm.getPasswordForEmail.then.doc (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\login\\loginPeerMotivator.js:25:37)\n    at <anonymous>","timestamp":1523173128072}
+{"level":"error","message":"TypeError: Cannot read property 'password' of null\n    at pm.getPasswordForEmail.then.doc (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\login\\loginPeerMotivator.js:25:37)\n    at <anonymous>","timestamp":1523173381557}
+{"level":"error","message":"TypeError: Cannot read property 'password' of null\n    at pm.getPasswordForEmail.then.doc (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\login\\loginPeerMotivator.js:25:37)\n    at <anonymous>","timestamp":1523173381558}
+{"level":"info","message":"connected to database","timestamp":1523173395254}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523173396645}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523173396918}
+{"level":"error","message":"ReferenceError: docs is not defined\n    at client.getPasswordForEmail.then.doc (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\login\\loginClient.js:25:25)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:182:7)","timestamp":1523173417666}
+{"level":"error","message":"ReferenceError: docs is not defined\n    at client.getPasswordForEmail.then.doc (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\login\\loginClient.js:25:25)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:182:7)","timestamp":1523173417667}
+{"level":"info","message":"connected to database","timestamp":1523173433657}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523173436247}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523173436250}
+{"level":"info","message":"connected to database","timestamp":1523173537379}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523173538841}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523173539107}
+{"level":"info","message":"connected to database","timestamp":1523173559170}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523173560606}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523173560875}
+{"level":"info","message":"connected to database","timestamp":1523173616683}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523173618112}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523173618393}
+{"level":"info","message":"connected to database","timestamp":1523173647318}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523173648799}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523173649085}
+{"level":"info","message":"connected to database","timestamp":1523173668280}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523173670859}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523173670869}
