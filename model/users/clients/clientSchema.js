@@ -26,7 +26,8 @@ var model = connection.model('clients', schema);
 
 model.once('index', (err)=>{
     if(err){
-        winston.info('there is a problem with client schema index '+ err);
+        winston.info('there is a problem with client schema index ');
+        winston.error(err.stack)
     }
     else{
         winston.info('client schema successfully indexed');
