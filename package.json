@@ -9,7 +9,8 @@
   "private": true,
   "scripts": {
     "start": "./node_modules/.bin/nodemon ./bin/www",
-    "test": "./node_modules/.bin/nodemon --exec ./node_modules/.bin/jasmine "
+    "test": "./node_modules/.bin/nodemon --exec ./node_modules/.bin/jasmine",
+    "oneTimeTest": "./node_modules/.bin/jasmine"
   },
   "dependencies": {
     "body-parser": "1.18.2",

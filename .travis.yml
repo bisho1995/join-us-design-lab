@@ -4,9 +4,8 @@ node_js:
  - "8"
  - "9"
 before_script:
-  - npm i -g nodemon
-  - npm i -g jasmine
-  - chmod 0777 ./node_modules/.bin/jasmine
   - npm install
+  - chmod 0777 ./node_modules/.bin/jasmine
+  - chmod 0777 ./node_modules/.bin/nodemon
 script:
-  - npm test
+  - npm run oneTimeTest
