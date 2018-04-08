@@ -28,21 +28,28 @@ module.exports.doesEmailExist = function(email){
     return new Promise((resolve, reject)=>{
         model.findOne({'email': email}, (err, client)=>{
             if(err){
-                reject(new Error(err));
+                reject(err);
             }
             else{
-                if(isEmptyObject(client) === true){
-                    resolve(false);
-                }
-                else{
-                    resolve(true);
-                }
+                resolve(client !== null)
             }
         })
     });
 }
 
 
+module.exports.getPasswordForEmail = (email)=>{
+    return new Promise((resolve, reject)=>{
+        model.findOne({email: email}, ['password'], (err, docs)=>{
+            if(err){
+                reject(err)
+            }
+            else{
+                resolve(docs)
+            }
+        })
+    })
+}
 
 
 function isEmptyObject(objectInput) {
