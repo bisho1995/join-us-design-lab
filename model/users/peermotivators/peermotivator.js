@@ -36,7 +36,7 @@ module.exports.doesEmailExist = function(email){
                 reject(err);
             }
             else{
-                if(isEmptyObject(client) === true){
+                if(Object.keys(client).length === 0){
                     resolve(false);
                 }
                 else{
@@ -76,9 +76,17 @@ module.exports.getPasswordForEmail = (email)=>{
 }
 
 
-function isEmptyObject(objectInput) {
-    for ( name in objectInput){
-      return false;
-    }
-    return true;
+module.exports.getPmWithinRange = (start, end)=>{
+    return new Promise((resolve, reject)=>{
+        model.find({
+            start_time: { $lte: start },
+            end_time: { $gte: end }
+        }, (err, docs)=>{
+            if(err)
+                reject(err)
+            else{
+                resolve(docs)
+            }
+        })
+    })
 }

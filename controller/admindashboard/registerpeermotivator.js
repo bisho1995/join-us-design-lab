@@ -9,34 +9,44 @@ router.get('/', (req, res, next)=>{
 
 router.post('/', (req, res, next)=>{
 	let data = makeDataFromRequestBody(req.body)
-	pm.doesEmailExist(data.email).then(emailPresent=>{
+
+
+	pm.doesEmailExist(data.email)
+	.then(emailPresent=>{
 		if(emailPresent === true){
 			res.send('The email is already taken.')
 		}
 		else{
-			console.log('The data is ', data);
-			registerNewPm(data).then(data=>res.send(data))
+			registerNewPm(data)
+				.then(data=>res.send(data))
 		}
-	}).catch(err=>
+	})
+	.catch(err=>
 		{
 			winston.error(err.stack)
 			res.send('There was an error in checking if the email already exists.')
 		})
 });
 
+
+function formatData(data){
+	if(data.start_time < data.end_time)
+		data.end_time = 24 + parseInt(data.end_time)
+	return data
+}
+
 function makeDataFromRequestBody(userData){
 	let _tmp = {
 		name: userData.name,
 		email: userData.email,
 		password: userData.password,
-		start_time: userData.start_time,
-		end_time: userData.end_time
+		start_time: parseInt(userData.start_time),
+		end_time: parseInt(userData.end_time)
 	}
 
 	if( _tmp.end_time < _tmp.start_time ){
-		_tmp.end_time += 24
+		_tmp.end_time = parseInt(_tmp.end_time) + 24
 	}
-
 	return _tmp
 }
 

@@ -4,23 +4,34 @@ block content
   h1= title
 
   div.container
-    ul
-      li 
-        a(href="/register", target="_blank") register
-      li 
-        a(href="/login", target="_blank") login
-      li 
-        a(href="/client-dashboard/find-counselor", target="_blank") findcounselor
-      li 
-        a(href="/admin-dashboard", target="_blank") admin dashboard
-      li 
-        a(href="/admin-dashboard/manage-peer-motivator", target="_blank") manage pm
-      li 
-        a(href="/admin-dashboard/manage-counselor-information", target="_blank") manage counselor
-      li 
-        a(href="/admin-dashboard/register-peer-motivator", target="_blank") Register peer motivator
-      li
-        a(href="/client-dashboard", target="_blank") Client dashboard
+    div
+      h2 Login Register
+      ul
+        li 
+          a(href="/register", target="_blank") register client
+        li 
+          a(href="/login", target="_blank") login client
+        li 
+          a(href="/admin-dashboard/register-peer-motivator", target="_blank") register pm
+        li 
+          a(href="/login", target="_blank") login pm
+    div
+      h2 Client Dashboard
+      ul
+        li 
+          a(href="/client-dashboard/find-counselor", target="_blank") findcounselor
+        li
+          a(href="/client-dashboard", target="_blank") Client dashboard
+    div
+      h2 Admin Dashboard
+      ul
+        li 
+          a(href="/admin-dashboard", target="_blank") admin dashboard
+        li 
+          a(href="/admin-dashboard/manage-peer-motivator", target="_blank") manage pm
+        li 
+          a(href="/admin-dashboard/manage-counselor-information", target="_blank") manage counselor
+      
 
 
 

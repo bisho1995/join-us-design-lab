@@ -1,5 +1,5 @@
-var client = require('../../model/users/clients/client');
-var winston = require('../../shared/logger');
+const client = require('../../model/users/clients/client');
+const winston = require('../../shared/logger');
 
 
 module.exports.registerUser = function(req, res, next){

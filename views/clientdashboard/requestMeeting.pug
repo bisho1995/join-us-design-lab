@@ -1,0 +1,29 @@
+extends ../shared/layout
+block content
+
+    h1 Request Meeting
+
+    div.container
+        form(method="post" action="")
+            table
+                tr
+                    td
+                        p
+                            b Date
+                    td
+                        input(type="date" name="date" required)
+                tr
+                    td 
+                        p 
+                            b Start Time
+                    td 
+                        input(type="number" min="0" max="24" name="start_time" placeholder="24 hour" autofocus  required)
+                tr
+                    td 
+                        p 
+                            b End Time
+                    td
+                        input(type="number" min="0" max="24" name="end_time" placeholder="24 hour"  required)
+                tr
+                    td(colspan="2")
+                        button(class="btn btn-primary btn-block") Submit
