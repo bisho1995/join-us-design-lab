@@ -1,6 +1,10 @@
 'use strict'
 var router = require('express').Router();
 
+/**
+* only routes one level deep are written here
+*/
+
 var index = require('./controller/index');
 var register = require('./controller/register');
 var login = require('./controller/login');
