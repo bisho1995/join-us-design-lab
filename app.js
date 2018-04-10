@@ -47,6 +47,7 @@ app.use(require('./routes'));
 
 
 // catch 404 and forward to error handler
+// need to change this to 404 page
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
   err.status = 404;
