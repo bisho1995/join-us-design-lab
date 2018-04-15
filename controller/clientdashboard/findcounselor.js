@@ -6,9 +6,14 @@ const winston = require('../../shared/logger')
 const FindCounselor = require('./findCounselorClass')
 const findCounselor = new FindCounselor()
 
+const RouteGuaud = require('../../shared/validateAuthentication')
 
-router.get('/', (req, res, next)=>{
-	res.render('clientdashboard/find_counselor');
+router.get('/',async (req, res, next)=>{
+	let routeGuard = new RouteGuaud(req.signedCookies, 0)
+	if(await routeGuard.checkAuthentication() === true)
+		res.render('clientdashboard/find_counselor');
+	else	
+		res.redirect('../login')
 });
 
 router.post('/',async (req, res, next)=>{
