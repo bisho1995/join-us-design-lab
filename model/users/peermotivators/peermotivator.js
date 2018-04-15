@@ -1,4 +1,3 @@
-var connection = require('../../db');
 var model = require('./schema');
 
 
@@ -36,7 +35,7 @@ module.exports.doesEmailExist = function(email){
                 reject(err);
             }
             else{
-                if(client === null || client === undefined)
+                if(client === null || client === undefined || client === 'null' || client === 'undefined')
                     resolve(false)
                 else{
                     if(Object.keys(client).length === 0){
@@ -120,9 +119,22 @@ module.exports.getPasswordForEmail = (email)=>{
 
 module.exports.getPmWithinRange = (start, end)=>{
     return new Promise((resolve, reject)=>{
-        model.find({
+        /**
+         * 
             start_time: { $lte: start },
             end_time: { $gte: end }
+         */
+        model.find({
+            $or: [
+                {
+                    start_time: { $lte: start},
+                    end_time: { $gte: start + 1}
+                },
+                {
+                    end_time: {$gte: end},
+                    start_time: { $lte: end - 1 }
+                }
+            ]
         }, (err, docs)=>{
             if(err)
                 reject(err)
