@@ -36,16 +36,58 @@ module.exports.doesEmailExist = function(email){
                 reject(err);
             }
             else{
-                if(Object.keys(client).length === 0){
-                    resolve(false);
-                }
+                if(client === null || client === undefined)
+                    resolve(false)
                 else{
-                    resolve(true);
+                    if(Object.keys(client).length === 0){
+                        resolve(false);
+                    }
+                    else{
+                        resolve(true);
+                    }
                 }
             }
         })
     });
 }
+
+
+module.exports.setAuthToken = (email, token)=>{
+    return new Promise((resolve, reject)=>{
+        model.findOne({'email': email}, (err, client)=>{
+            if(err){
+                reject(err)
+            }
+            else{
+                let _tmp =[ token ]
+                client.authKeys = _tmp
+                client.save((err, doc)=>{
+                    if(err){
+                        reject(err)
+                    }
+                    else{
+                        resolve(doc)
+                    }
+                })
+            }
+        })
+    })
+}
+
+module.exports.getAuthToken = (email)=>{
+    return new Promise((resolve, reject)=>{
+        model.findOne({'email': email}, (err, client)=>{
+            if(err){
+                reject(err)
+            }
+            else{
+                resolve(client.authKeys)
+            }
+        })
+    })
+}
+
+
 
 
 module.exports.getAllPm = ()=>{

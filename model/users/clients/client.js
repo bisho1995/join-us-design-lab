@@ -24,6 +24,42 @@ module.exports.registerClient = function(data){
 };
 
 
+module.exports.setAuthToken = (email, token)=>{
+    return new Promise((resolve, reject)=>{
+        model.findOne({'email': email}, (err, client)=>{
+            if(err){
+                reject(err)
+            }
+            else{
+                let _tmp =[ token ]
+                client.authKeys = _tmp
+                client.save((err, doc)=>{
+                    if(err){
+                        reject(err)
+                    }
+                    else{
+                        resolve(doc)
+                    }
+                })
+            }
+        })
+    })
+}
+
+module.exports.getAuthToken = (email)=>{
+    return new Promise((resolve, reject)=>{
+        model.findOne({'email': email}, (err, client)=>{
+            if(err){
+                reject(err)
+            }
+            else{
+                resolve(client.authKeys)
+            }
+        })
+    })
+}
+
+
 module.exports.doesEmailExist = function(email){
     return new Promise((resolve, reject)=>{
         model.findOne({'email': email}, (err, client)=>{
@@ -36,6 +72,7 @@ module.exports.doesEmailExist = function(email){
         })
     });
 }
+
 
 
 module.exports.getPasswordForEmail = (email)=>{
