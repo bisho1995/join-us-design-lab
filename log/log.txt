@@ -790,3 +790,73 @@
 {"level":"info","message":"connected to database","timestamp":1523772488153}
 {"level":"info","message":"client schema successfully indexed","timestamp":1523772489621}
 {"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523772489917}
+{"level":"info","message":"connected to database","timestamp":1523780484185}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523780485620}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523780485906}
+{"level":"info","message":"connected to database","timestamp":1523781227318}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523781228708}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523781228979}
+{"level":"info","message":"connected to database","timestamp":1523781244329}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523781245718}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523781245983}
+{"level":"info","message":"connected to database","timestamp":1523781276736}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523781278127}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523781278396}
+{"level":"info","message":"connected to database","timestamp":1523781310662}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523781312074}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523781312361}
+{"level":"info","message":"connected to database","timestamp":1523781390765}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523781392160}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523781392437}
+{"level":"info","message":"connected to database","timestamp":1523781444888}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523781446291}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523781446561}
+{"level":"info","message":"connected to database","timestamp":1523781456014}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523781457429}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523781457703}
+{"level":"info","message":"connected to database","timestamp":1523781611766}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523781613179}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523781613444}
+{"level":"info","message":"connected to database","timestamp":1523781692926}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523781694372}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523781694650}
+{"level":"info","message":"connected to database","timestamp":1523781777968}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523781779421}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523781779718}
+{"level":"info","message":"connected to database","timestamp":1523781814845}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523781816282}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523781816554}
+{"level":"info","message":"connected to database","timestamp":1523781967598}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523781971800}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523781971820}
+{"level":"info","message":"connected to database","timestamp":1523782108571}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523782110008}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523782110299}
+{"level":"info","message":"connected to database","timestamp":1523782250240}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523782251680}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523782251960}
+{"level":"info","message":"connected to database","timestamp":1523782267677}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523782269067}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523782269335}
+{"level":"info","message":"connected to database","timestamp":1523782344842}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523782346272}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523782346524}
+{"level":"info","message":"connected to database","timestamp":1523782391539}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523782392936}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523782393217}
+{"level":"info","message":"connected to database","timestamp":1523782439662}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523782441038}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523782441300}
+{"level":"info","message":"connected to database","timestamp":1523782604357}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523782605739}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523782606011}
+{"level":"info","message":"connected to database","timestamp":1523782633352}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523782637113}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523782637118}
+{"level":"info","message":"connected to database","timestamp":1523782818771}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523782820176}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523782820456}
+{"level":"info","message":"connected to database","timestamp":1523782974886}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523782976290}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523782976568}
+{"level":"error","message":"disconnected from database","timestamp":1523783007912}
