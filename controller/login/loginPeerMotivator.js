@@ -22,6 +22,32 @@ module.exports = class LoginPM {
         });
     }
 
+    async setAuthToken(email, token){
+        try {
+            let doc = await pm.setAuthToken(email, token)   
+            return true
+        } catch (error) {
+            winston.error(error.stack)
+            return false
+        }
+    }
+
+
+    async validateAuthToken(email, token){
+        try {
+            let authTokens = await pm.getAuthToken(email)
+            if(authTokens.includes(token)){
+                return true
+            }
+            else{
+                return false
+            }
+        } catch (error) {
+            winston.error(error.stack)
+            return false
+        }
+    }
+
 
     /**
      * validate if the pm is a valid pm or not

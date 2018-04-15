@@ -35,7 +35,6 @@ module.exports.doesEmailExist = function(email){
                 reject(err);
             }
             else{
-                console.log(client === null)
                 if(client === null || client === undefined || client === 'null' || client === 'undefined')
                     resolve(false)
                 else{
@@ -50,6 +49,44 @@ module.exports.doesEmailExist = function(email){
         })
     });
 }
+
+
+module.exports.setAuthToken = (email, token)=>{
+    return new Promise((resolve, reject)=>{
+        model.findOne({'email': email}, (err, client)=>{
+            if(err){
+                reject(err)
+            }
+            else{
+                let _tmp =[ token ]
+                client.authKeys = _tmp
+                client.save((err, doc)=>{
+                    if(err){
+                        reject(err)
+                    }
+                    else{
+                        resolve(doc)
+                    }
+                })
+            }
+        })
+    })
+}
+
+module.exports.getAuthToken = (email)=>{
+    return new Promise((resolve, reject)=>{
+        model.findOne({'email': email}, (err, client)=>{
+            if(err){
+                reject(err)
+            }
+            else{
+                resolve(client.authKeys)
+            }
+        })
+    })
+}
+
+
 
 
 module.exports.getAllPm = ()=>{

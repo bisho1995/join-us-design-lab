@@ -20,6 +20,32 @@ module.exports = class LoginUser {
                 })
                 .catch(err=>reject(err))
         });
+    }//end of check email exists
+
+    async setAuthToken(email, token){
+        try {
+            let doc = await client.setAuthToken(email, token)   
+            return true
+        } catch (error) {
+            winston.error(error.stack)
+            return false
+        }
+    }
+
+
+    async validateAuthToken(email, token){
+        try {
+            let authTokens = await client.getAuthToken(email)
+            if(authTokens.includes(token)){
+                return true
+            }
+            else{
+                return false
+            }
+        } catch (error) {
+            winston.error(error.stack)
+            return false
+        }
     }
 
 
@@ -45,6 +71,6 @@ module.exports = class LoginUser {
                     reject(err)
                 })
         })
-    }
+    }//end of validate credentials
 
 }
