@@ -23,6 +23,10 @@ var schema = new mongoose.Schema({
     end_time: {
         type: Number,
         required: true
+    },
+    authKeys: {
+        type: Array,
+        default: []
     }
 });
 
