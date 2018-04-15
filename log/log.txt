@@ -862,3 +862,215 @@
 {"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523782976568}
 {"level":"error","message":"disconnected from database","timestamp":1523783007912}
 
+{"level":"info","message":"connected to database","timestamp":1523799780027}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523799781541}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523799782670}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523799782671}
+{"level":"info","message":"connected to database","timestamp":1523799989694}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523799991162}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523799992275}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523799992291}
+{"level":"info","message":"connected to database","timestamp":1523800063039}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523800064539}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523800065693}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523800065693}
+{"level":"info","message":"connected to database","timestamp":1523800211355}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523800212791}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523800213912}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523800213917}
+{"level":"info","message":"connected to database","timestamp":1523800313601}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523800315024}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523800316155}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523800316155}
+{"level":"info","message":"connected to database","timestamp":1523800488826}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523800490282}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523800491432}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523800491433}
+{"level":"info","message":"connected to database","timestamp":1523800512160}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523800513561}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523800514688}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523800514691}
+{"level":"info","message":"connected to database","timestamp":1523800639009}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523800640423}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523800641550}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523800641565}
+{"level":"info","message":"connected to database","timestamp":1523800648406}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523800649852}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523800651012}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523800651043}
+{"level":"error","message":"ReferenceError: client is not defined\n    at RequestMeeting.getClientIdFromEmail (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\clientdashboard\\requestMeetingClass.js:57:22)\n    at RequestMeeting.startSlotFindingAndAllocationProcess (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\clientdashboard\\requestMeetingClass.js:116:55)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:182:7)","timestamp":1523800651324}
+{"level":"info","message":"connected to database","timestamp":1523800704407}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523800706988}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523800706988}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523800707003}
+{"level":"error","message":"TypeError: client.getClientIdFromEmail is not a function\n    at RequestMeeting.getClientIdFromEmail (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\clientdashboard\\requestMeetingClass.js:57:35)\n    at RequestMeeting.startSlotFindingAndAllocationProcess (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\clientdashboard\\requestMeetingClass.js:116:55)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:182:7)","timestamp":1523800708113}
+{"level":"info","message":"connected to database","timestamp":1523800729267}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523800730746}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523800731833}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523800731849}
+{"level":"error","message":"TypeError: client.getClientIdFromEmail is not a function\n    at RequestMeeting.getClientIdFromEmail (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\clientdashboard\\requestMeetingClass.js:57:35)\n    at RequestMeeting.startSlotFindingAndAllocationProcess (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\clientdashboard\\requestMeetingClass.js:116:55)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:182:7)","timestamp":1523800733239}
+{"level":"info","message":"connected to database","timestamp":1523800753008}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523800755660}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523800755660}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523800755675}
+{"level":"info","message":"connected to database","timestamp":1523800792098}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523800793513}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523800794616}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523800794631}
+{"level":"info","message":"connected to database","timestamp":1523800973941}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523800975390}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523800976540}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523800976556}
+{"level":"info","message":"connected to database","timestamp":1523801027785}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523801029239}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523801030356}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523801030362}
+{"level":"info","message":"connected to database","timestamp":1523801061172}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523801062695}
+{"level":"info","message":"connected to database","timestamp":1523801067122}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523801068654}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523801069820}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523801069836}
+{"level":"info","message":"connected to database","timestamp":1523801076326}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523801077771}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523801078862}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523801078877}
+{"level":"info","message":"connected to database","timestamp":1523801097467}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523801098944}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523801100061}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523801100069}
+{"level":"info","message":"connected to database","timestamp":1523801111316}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523801112754}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523801113801}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523801113832}
+{"level":"info","message":"connected to database","timestamp":1523801139173}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523801141708}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523801141708}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523801141708}
+{"level":"info","message":"connected to database","timestamp":1523801167212}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523801169243}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523801170337}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523801170342}
+{"level":"info","message":"connected to database","timestamp":1523801377632}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523801379068}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523801380219}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523801380222}
+{"level":"info","message":"connected to database","timestamp":1523801398271}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523801399716}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523801400885}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523801400899}
+{"level":"info","message":"connected to database","timestamp":1523801579403}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523801581997}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523801582002}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523801582008}
+{"level":"info","message":"connected to database","timestamp":1523801681834}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523801684526}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523801684531}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523801684539}
+{"level":"error","message":"ValidationError: appointments validation failed: peermotivators.1.client_id: Path `client_id` is required.\n    at new ValidationError (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Document.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1751:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\types\\embedded.js:245:19)\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1623:17\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:808:9\n    at process._tickCallback (internal/process/next_tick.js:176:11)","timestamp":1523801686366}
+{"level":"error","message":"ValidationError: appointments validation failed: peermotivators.1.client_id: Path `client_id` is required.\n    at new ValidationError (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Document.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1751:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\types\\embedded.js:245:19)\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1623:17\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:808:9\n    at process._tickCallback (internal/process/next_tick.js:176:11)","timestamp":1523801686367}
+{"level":"error","message":"ValidationError: appointments validation failed: peermotivators.1.client_id: Path `client_id` is required.\n    at new ValidationError (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Document.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1751:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\types\\embedded.js:245:19)\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1623:17\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:808:9\n    at process._tickCallback (internal/process/next_tick.js:176:11)","timestamp":1523801687245}
+{"level":"error","message":"ValidationError: appointments validation failed: peermotivators.1.client_id: Path `client_id` is required.\n    at new ValidationError (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Document.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1751:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\types\\embedded.js:245:19)\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1623:17\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:808:9\n    at process._tickCallback (internal/process/next_tick.js:176:11)","timestamp":1523801687249}
+{"level":"error","message":"ValidationError: appointments validation failed: peermotivators.1.client_id: Path `client_id` is required.\n    at new ValidationError (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Document.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1751:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\types\\embedded.js:245:19)\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1623:17\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:808:9\n    at process._tickCallback (internal/process/next_tick.js:176:11)","timestamp":1523801688124}
+{"level":"error","message":"ValidationError: appointments validation failed: peermotivators.1.client_id: Path `client_id` is required.\n    at new ValidationError (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Document.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1751:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\types\\embedded.js:245:19)\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1623:17\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:808:9\n    at process._tickCallback (internal/process/next_tick.js:176:11)","timestamp":1523801688127}
+{"level":"info","message":"connected to database","timestamp":1523801788351}
+{"level":"info","message":"connected to database","timestamp":1523801835179}
+{"level":"error","message":"disconnected from database","timestamp":1523801862045}
+{"level":"info","message":"connected to database","timestamp":1523801877625}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523801879192}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523801880417}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523801880442}
+{"level":"error","message":"ValidationError: appointments validation failed: peermotivators.1.client_id: Path `client_id` is required.\n    at new ValidationError (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Document.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1751:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\types\\embedded.js:245:19)\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1623:17\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:808:9\n    at process._tickCallback (internal/process/next_tick.js:176:11)","timestamp":1523801892092}
+{"level":"error","message":"ValidationError: appointments validation failed: peermotivators.1.client_id: Path `client_id` is required.\n    at new ValidationError (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Document.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1751:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\types\\embedded.js:245:19)\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1623:17\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:808:9\n    at process._tickCallback (internal/process/next_tick.js:176:11)","timestamp":1523801892094}
+{"level":"info","message":"connected to database","timestamp":1523801990330}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523801992823}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523801992826}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523801992830}
+{"level":"error","message":"ValidationError: appointments validation failed: peermotivators.1.client_id: Path `client_id` is required.\n    at new ValidationError (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Document.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1751:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\types\\embedded.js:245:19)\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1623:17\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:808:9\n    at process._tickCallback (internal/process/next_tick.js:176:11)","timestamp":1523801994557}
+{"level":"error","message":"ValidationError: appointments validation failed: peermotivators.1.client_id: Path `client_id` is required.\n    at new ValidationError (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Document.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1751:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\types\\embedded.js:245:19)\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1623:17\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:808:9\n    at process._tickCallback (internal/process/next_tick.js:176:11)","timestamp":1523801994559}
+{"level":"info","message":"connected to database","timestamp":1523802014854}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523802017449}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523802017473}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523802017480}
+{"level":"error","message":"ValidationError: appointments validation failed: peermotivators.1.client_id: Path `client_id` is required.\n    at new ValidationError (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Document.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1751:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\types\\embedded.js:245:19)\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1623:17\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:808:9\n    at process._tickCallback (internal/process/next_tick.js:176:11)","timestamp":1523802019287}
+{"level":"error","message":"ValidationError: appointments validation failed: peermotivators.1.client_id: Path `client_id` is required.\n    at new ValidationError (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Document.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1751:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\types\\embedded.js:245:19)\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1623:17\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:808:9\n    at process._tickCallback (internal/process/next_tick.js:176:11)","timestamp":1523802019288}
+{"level":"error","message":"ValidationError: appointments validation failed: peermotivators.1.client_id: Path `client_id` is required.\n    at new ValidationError (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Document.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1751:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\types\\embedded.js:245:19)\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1623:17\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:808:9\n    at process._tickCallback (internal/process/next_tick.js:176:11)","timestamp":1523802126265}
+{"level":"error","message":"ValidationError: appointments validation failed: peermotivators.1.client_id: Path `client_id` is required.\n    at new ValidationError (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Document.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1751:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\types\\embedded.js:245:19)\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\document.js:1623:17\n    at C:\\Users\\bisho\\Desktop\\join-us-design-lab\\node_modules\\mongoose\\lib\\schematype.js:808:9\n    at process._tickCallback (internal/process/next_tick.js:176:11)","timestamp":1523802126270}
+{"level":"info","message":"connected to database","timestamp":1523802146343}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523802167140}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523802167140}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523802434220}
+{"level":"info","message":"connected to database","timestamp":1523802476669}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523802479190}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523802479194}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523802479200}
+{"level":"info","message":"connected to database","timestamp":1523802562696}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523802564137}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523802565308}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523802565313}
+{"level":"info","message":"connected to database","timestamp":1523802570378}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523802571814}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523802572958}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523802572963}
+{"level":"info","message":"connected to database","timestamp":1523802732801}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523802734239}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523802735379}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523802735395}
+{"level":"info","message":"connected to database","timestamp":1523802798794}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523802800268}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523802801360}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523802801374}
+{"level":"info","message":"connected to database","timestamp":1523802873002}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523802874474}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523802875622}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523802875628}
+{"level":"info","message":"connected to database","timestamp":1523803070764}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523803072173}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523803073312}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523803073328}
+{"level":"info","message":"connected to database","timestamp":1523803145645}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523803147068}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523803148189}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523803148192}
+{"level":"info","message":"connected to database","timestamp":1523803174921}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523803176383}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523803177542}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523803177552}
+{"level":"info","message":"connected to database","timestamp":1523803483174}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523803484587}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523803485711}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523803485714}
+{"level":"info","message":"connected to database","timestamp":1523803516132}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523803517604}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523803518775}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523803518785}
+{"level":"info","message":"connected to database","timestamp":1523803527268}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523803528692}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523803529847}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523803529855}
+{"level":"info","message":"connected to database","timestamp":1523803597369}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523803598758}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523803599854}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523803599857}
+{"level":"info","message":"connected to database","timestamp":1523803609128}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523803610589}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523803611680}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523803611685}
+{"level":"info","message":"connected to database","timestamp":1523803624175}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523803626671}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523803626682}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523803626685}
+{"level":"info","message":"connected to database","timestamp":1523803643146}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523803644544}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523803645659}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523803645659}
+{"level":"info","message":"connected to database","timestamp":1523803732470}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523803733870}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523803734995}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523803734995}
+{"level":"info","message":"connected to database","timestamp":1523803808038}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523803809514}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523803810609}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523803810625}
+{"level":"info","message":"connected to database","timestamp":1523803849004}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523803850394}

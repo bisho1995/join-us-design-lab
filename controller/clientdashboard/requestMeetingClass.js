@@ -1,6 +1,9 @@
 const pm = require('../../model/users/peermotivators/peermotivator')
-const appointment = require('../../model/appointments/peermotivator/appointments')
+const pmAppointment = require('../../model/appointments/peermotivator/appointments')
+const clientAppointment = require('../../model/appointments/client/appointments')
 const winston = require('../../shared/logger')
+const client = require('../../model/users/clients/client')
+
 
 /**
  * ================== ALGO ======================
@@ -44,12 +47,38 @@ module.exports = class RequestMeeting{
         this.date = new Date()
     }
 
+    /**
+     * Formats the end date according to the formatting rules mentioned 
+     * in the docs of the project
+     */
     formatEndDateRelativeToStartDate(){
         if(this.end_time < this.start_time){
             this.end_time = parseInt(this.end_time) + 24
         }
     }
 
+    /**
+     * Returns the unique ID of the client
+     * @param {String} email The email id of the client whose _id is to be found
+     */
+    async getClientIdFromEmail(email){
+        try {
+            let id = await client.getIdFromEmail(email)
+            return id
+        } catch (error) {
+            winston.error(error.stack)
+        }
+    }
+
+    /**
+     * 
+     * returns the list of peer motivators available
+     * on a particular date at a particular
+     * time frame
+     * 
+     * @param {Number} start The preffered start time of the meeting
+     * @param {Number} end The prefered end time of the meeting
+     */
     getPmAvailableWithingRange(start, end){
         return new Promise((resolve, reject)=>{
             pm.getPmWithinRange(start, end)
@@ -69,24 +98,32 @@ module.exports = class RequestMeeting{
         })
     }
 
-    async OnInit(data){
+    async OnInit(data, emailOfClient){
         this.start_time = parseInt(data.start_time)
         this.end_time = parseInt(data.end_time)
         this.date = data.date
+        this.emailOfClient = emailOfClient
 
 
         this.formatEndDateRelativeToStartDate()
-        this.startSlotFindingAndAllocationProcess(this.start_time, this.end_time, this.date)
+        let response = await this.startSlotFindingAndAllocationProcess(this.start_time, this.end_time, this.date)
+        return response
         
     }//end of OnInit
 
 
     async startSlotFindingAndAllocationProcess(start_time, end_time, date){
         try{
+            let meetingDetails = {
+                name: '',
+                date: '',
+                start: '',
+                end: ''
+            }
             let pmAvailable = false
             let pmsAvailableWithinTimeRange = await this.getPmAvailableWithingRange(start_time, end_time)
             if(pmsAvailableWithinTimeRange.length === 0){
-                console.log('No one is available within range')
+                return 'No one is available within range'
             }
             else{
 
@@ -101,33 +138,83 @@ module.exports = class RequestMeeting{
                     if(available !== false){
                         pmAvailable = true
                         try {
-                            let status = await this.addAppointmentForPeermotivator(date, pm.id, pm.name, available, available + 0.5)
+                            let startOfMeeting = available
+                            let endOfMeeting = available + 0.5
+                            let clientId = await this.getClientIdFromEmail(this.emailOfClient)
+                            let status = await this.addAppointmentForPeermotivator
+                            (
+                                date, 
+                                clientId, 
+                                pm.id, 
+                                pm.name, 
+                                startOfMeeting, 
+                                endOfMeeting
+                            )
+                            this.addAppointmentForClient(
+                                clientId,
+                                date,
+                                startOfMeeting,
+                                endOfMeeting,
+                                pm.name
+                            )
+                            meetingDetails.name = pm.name
+                            meetingDetails.start = startOfMeeting
+                            meetingDetails.end = endOfMeeting
+                            meetingDetails.date = date
                             break   
                         } catch (error) {
                             winston.error(error.stack)
+                            return 'There was an error!'
                         }
                     }
                 }//end of loop of available pms
                 if(pmAvailable === false){
-                    console.log('Unfortunately no pm is available within this time slot of this date')
+                    return 'Unfortunately no pm is available within this time slot of this date'
                 }
                 else{
-                    console.log('Successfully set up appointment with pm')
+                    let response = 'Successfully set up appointment with pm ' + 
+                        meetingDetails.name + ' ' +
+                        meetingDetails.date + ' ' +
+                        meetingDetails.start + ' ' +
+                        meetingDetails.end
+                    return response
                 }
             }
         }catch(err){
             winston.error(err.stack)
+            return 'There was an error!!'
         }
     }//end of startSlotFindingAndAllocationProcess
 
-    addAppointmentForPeermotivator(date, id, name, start_time, end_time){
+
+
+    /**
+     * Adds appointment for client
+     * @param {String} id 
+     * @param {Date} date 
+     * @param {Number} start_time 
+     * @param {Number} end_time 
+     * @param {String} name 
+     */
+    async addAppointmentForClient(id, date, start_time, end_time, name){
+        return new Promise(async (resolve, reject)=>{
+            try {
+                await clientAppointment.addAppointment(id, date, start_time, end_time, name)   
+                resolve(true)
+            } catch (error) {
+                winston.error(error.stack)
+                reject(error)
+            }
+        })
+    }
+
+    addAppointmentForPeermotivator(date,clientId, id, name, start_time, end_time){
         return new Promise((resolve, reject)=>{
-            appointment.addAppointment(date, id, name, start_time, end_time)
+            pmAppointment.addAppointment(date,clientId, id, name, start_time, end_time)
             .then(data=>{
                 resolve(data)
             })
             .catch(err=>{
-                console.log(err)
                 winston.error(err.stack)
                 reject(err)
             })
@@ -137,7 +224,7 @@ module.exports = class RequestMeeting{
     getPeermotivatorAvailabilityWithinRange(date, id, start_time, end_time){
         return new Promise(async (resolve, reject)=>{
             try {
-                let appointmentList = await appointment.getAppointmentListForPmWithDate(date, id)   
+                let appointmentList = await pmAppointment.getAppointmentListForPmWithDate(date, id)   
                 let _ar = appointmentList.map((a=>{return {'start': a.slot_timings.start, 'end': a.slot_timings.end}}))
                 let isSlotAvailable = this.checkIfSlotIsAvailableForAppointmentList(_ar, start_time, end_time)
                 

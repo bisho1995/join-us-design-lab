@@ -9,6 +9,11 @@ let schema = mongoose.Schema({
     },
     peermotivators: [
         {
+            client_id: {
+                type: String,
+                required: true,
+                trim: true
+            },
             id: {
                 type: String
             },
@@ -26,10 +31,6 @@ let schema = mongoose.Schema({
                     type: Number,
                     required: true
                 }
-            },
-            client_id: {
-                type: String,
-                default: 'default_id'
             }
         }
     ]
