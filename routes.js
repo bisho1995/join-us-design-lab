@@ -10,6 +10,7 @@ var register = require('./controller/register');
 var login = require('./controller/login');
 var admindashboard = require('./controller/admindashboard');
 var clientdashboard = require('./controller/clientdashboard')
+var pmdashboard = require('./controller/peermotivatordashboard')
 
 
 
@@ -18,6 +19,7 @@ router.use('/register', register);
 router.use('/login', login);
 router.use('/admin-dashboard', admindashboard);
 router.use('/client-dashboard', clientdashboard);
+router.use('/peermotivator-dashboard', pmdashboard);
 
 
 
