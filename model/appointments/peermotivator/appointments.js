@@ -21,10 +21,18 @@ module.exports.getAppointmentListForPmWithDate = (date, id)=>{
 }
 
 
-
-module.exports.addAppointment = (date, pm_id, name, start, end)=>{
+/**
+ * Adds an appointment between pm and client
+ * 
+ * @param {String} date The date of the appointment
+ * @param {String} clientId The id of the client with whome the meeting is set
+ * @param {String} pm_id The id of the peer motivator
+ * @param {String} name The name of the peer motivator
+ * @param {Number} start The start hour (0 to 48) check docs
+ * @param {Number} end The end hour of the meeting
+ */
+module.exports.addAppointment = (date,clientId, pm_id, name, start, end)=>{
     return new Promise((resolve, reject)=>{
-
         appointments.findOne({ date: date }, (err, doc)=>{
             if(err){
                 reject(err)
@@ -35,6 +43,7 @@ module.exports.addAppointment = (date, pm_id, name, start, end)=>{
                         date: date,
                         peermotivators: [
                             {
+                                client_id: clientId,
                                 id: pm_id,
                                 name: name,
                                 slot_timings: {
@@ -55,6 +64,7 @@ module.exports.addAppointment = (date, pm_id, name, start, end)=>{
                 }//end of no doc exists for date
                 else{
                     let obj = {
+                        client_id: clientId,
                         id: pm_id,
                         name: name,
                         slot_timings: {

@@ -14,9 +14,16 @@ router.get('/',async (req, res, next)=>{
     }
 })
 
-router.post('/', (req, res, next)=>{
-    requestMeeting.OnInit(req.body)
-    res.send(req.body)
+router.post('/',async (req, res, next)=>{
+    let routeGuard = new RouteGuard(req.signedCookies, 0)
+    if(await routeGuard.checkAuthentication === false){
+        res.redirect('../login')
+    }
+    else{
+        let response = await requestMeeting.OnInit(req.body, req.signedCookies.email)
+        console.log('respose ', response)
+        res.send(response)
+    }
 })
 
 module.exports = router

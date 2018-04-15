@@ -89,9 +89,21 @@ module.exports.getPasswordForEmail = (email)=>{
 }
 
 
-function isEmptyObject(objectInput) {
-    for ( name in objectInput){
-      return false;
-    }
-    return true;
+module.exports.getIdFromEmail = (email)=>{
+    return new Promise((resolve, reject)=>{
+        model.findOne({ email: email }, (err, docs)=>{
+            if(err){
+                reject(err)
+            }
+            else{
+                if(docs === null || docs === undefined)
+                    resolve(undefined)
+                else{
+                    resolve(docs._id)
+                }
+            }
+        })
+    })
 }
+
+
