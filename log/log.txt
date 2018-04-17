@@ -1074,3 +1074,14 @@
 {"level":"info","message":"client schema successfully indexed","timestamp":1523803810625}
 {"level":"info","message":"connected to database","timestamp":1523803849004}
 {"level":"info","message":"Successfully indexed appointments schema","timestamp":1523803850394}
+{"level":"info","message":"connected to database","timestamp":1523948609642}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523948611143}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523948612392}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523948612408}
+{"level":"error","message":"disconnected from database","timestamp":1523948795621}
+{"level":"error","message":"closing connection to mongodb as node is getting shut down","timestamp":1523949574082}
+{"level":"info","message":"connected to database","timestamp":1523949597163}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1523949598739}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523949599948}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523949599979}
+{"level":"info","message":"connected to database","timestamp":1523951677692}

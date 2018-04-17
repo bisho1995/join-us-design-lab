@@ -7,6 +7,13 @@ describe('Find Counselor', ()=>{
     })
 
 
+    describe('Get places data from google ', ()=>{
+        
+    })
+
+
+
+
     describe('getPageToken test suite',()=>{
         it('should get a token when there is a valid keyword 1', ()=>{
             let token = findCounselor.getPageToken('keyword')
