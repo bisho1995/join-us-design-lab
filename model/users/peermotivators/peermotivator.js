@@ -4,6 +4,19 @@ var model = require('./schema');
 var winston = require('../../../shared/logger');
 
 
+module.exports.getIdFromEmail = (email)=>{
+    return new Promise((resolve, reject)=>{
+        model.findOne({email: email}, (err, doc)=>{
+            if(err){
+                reject(err)
+            }
+            else{
+                resolve(doc._id)
+            }
+        })
+    })
+}
+
 module.exports.registerPm = function(data){
     return new Promise((resolve, reject)=>{
         let client = new model({
