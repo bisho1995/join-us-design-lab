@@ -1,3 +1,7 @@
+const randomstring = require("randomstring")
+const moment = require('moment')
+
+
 const pm = require('../../model/users/peermotivators/peermotivator')
 const pmAppointment = require('../../model/appointments/peermotivator/appointments')
 const clientAppointment = require('../../model/appointments/client/appointments')
@@ -141,6 +145,9 @@ module.exports = class RequestMeeting{
                             let startOfMeeting = available
                             let endOfMeeting = available + 0.5
                             let clientId = await this.getClientIdFromEmail(this.emailOfClient)
+
+                            let meetingId = randomstring.generate(10)
+
                             let status = await this.addAppointmentForPeermotivator
                             (
                                 date, 
@@ -148,14 +155,16 @@ module.exports = class RequestMeeting{
                                 pm.id, 
                                 pm.name, 
                                 startOfMeeting, 
-                                endOfMeeting
+                                endOfMeeting,
+                                meetingId
                             )
                             this.addAppointmentForClient(
                                 clientId,
                                 date,
                                 startOfMeeting,
                                 endOfMeeting,
-                                pm.name
+                                pm.name,
+                                meetingId
                             )
                             meetingDetails.name = pm.name
                             meetingDetails.start = startOfMeeting
@@ -187,6 +196,14 @@ module.exports = class RequestMeeting{
     }//end of startSlotFindingAndAllocationProcess
 
 
+    /**
+     * change the date formats while entering in the 
+     * database in the respective functions then
+     * i need not change the rest of 
+     * the program here
+     */
+
+
 
     /**
      * Adds appointment for client
@@ -196,10 +213,11 @@ module.exports = class RequestMeeting{
      * @param {Number} end_time 
      * @param {String} name 
      */
-    async addAppointmentForClient(id, date, start_time, end_time, name){
+    async addAppointmentForClient(id, date, start_time, end_time, name, meetingId){
+        date = moment(date).format('YYYY/MM/DD')
         return new Promise(async (resolve, reject)=>{
             try {
-                await clientAppointment.addAppointment(id, date, start_time, end_time, name)   
+                await clientAppointment.addAppointment(id, date, start_time, end_time, name, meetingId)   
                 resolve(true)
             } catch (error) {
                 winston.error(error.stack)
@@ -208,9 +226,10 @@ module.exports = class RequestMeeting{
         })
     }
 
-    addAppointmentForPeermotivator(date,clientId, id, name, start_time, end_time){
+    addAppointmentForPeermotivator(date,clientId, id, name, start_time, end_time, meetingId){
+        date = moment(date).format('YYYY/MM/DD')
         return new Promise((resolve, reject)=>{
-            pmAppointment.addAppointment(date,clientId, id, name, start_time, end_time)
+            pmAppointment.addAppointment(date,clientId, id, name, start_time, end_time, meetingId)
             .then(data=>{
                 resolve(data)
             })
