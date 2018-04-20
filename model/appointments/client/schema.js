@@ -9,7 +9,7 @@ let schema = mongoose.Schema({
         trim: true
     },
     date: {
-        type: Date,
+        type: String,
         required: true
     },
     start_time: {
@@ -23,6 +23,10 @@ let schema = mongoose.Schema({
     peermotivator: {
         type: String,
         required: true
+    },
+    meetingId: {
+        type: String,
+        default: ""
     }
 })
 

@@ -4,11 +4,15 @@ var connection = require('../../db')
 
 let schema = mongoose.Schema({
     date: {
-        type: Date,
+        type: String,
         required: true
     },
     peermotivators: [
         {
+            meetingId: {
+                type: String,
+                default: ""
+            },
             client_id: {
                 type: String,
                 required: true,
