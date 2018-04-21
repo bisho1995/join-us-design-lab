@@ -1742,3 +1742,36 @@
 {"level":"info","message":"Successfully indexed appointments schema","timestamp":1524235767253}
 {"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1524235768315}
 {"level":"info","message":"client schema successfully indexed","timestamp":1524235768337}
+{"level":"info","message":"connected to database","timestamp":1524237794588}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1524237796048}
+{"level":"info","message":"client schema successfully indexed","timestamp":1524237797191}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1524237797191}
+{"level":"error","message":"disconnected from database","timestamp":1524238162327}
+{"level":"info","message":"connected to database","timestamp":1524270984470}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1524270985895}
+{"level":"info","message":"client schema successfully indexed","timestamp":1524270987056}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1524270987066}
+{"level":"info","message":"connected to database","timestamp":1524271123346}
+{"level":"info","message":"connected to database","timestamp":1524271127316}
+{"level":"info","message":"client schema successfully indexed","timestamp":1524271129899}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1524271129903}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1524271129904}
+{"level":"info","message":"connected to database","timestamp":1524271199075}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1524271200565}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1524271201664}
+{"level":"info","message":"client schema successfully indexed","timestamp":1524271201680}
+{"level":"error","message":"TypeError: Cannot read property 'date' of null\n    at Appointments.checkAppointment (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\clientdashboard\\appointmentsClass.js:93:54)\n    at <anonymous>","timestamp":1524271203352}
+{"level":"info","message":"connected to database","timestamp":1524271256039}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1524271257495}
+{"level":"info","message":"client schema successfully indexed","timestamp":1524271258620}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1524271258652}
+{"level":"error","message":"TypeError: Cannot read property 'date' of null\n    at Appointments.checkAppointment (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\clientdashboard\\appointmentsClass.js:94:54)\n    at <anonymous>","timestamp":1524271258935}
+{"level":"info","message":"connected to database","timestamp":1524271364696}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1524271366171}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1524271367327}
+{"level":"info","message":"client schema successfully indexed","timestamp":1524271367343}
+{"level":"info","message":"connected to database","timestamp":1524271453067}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1524271454731}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1524271456587}
+{"level":"info","message":"client schema successfully indexed","timestamp":1524271456595}
+{"level":"error","message":"disconnected from database","timestamp":1524271499238}

@@ -90,27 +90,32 @@ class Appointments {
     async checkAppointment(){
         try {
             let appointmentDetails  =await this.getAppointmentDetails()
-            let appointmentDate = appointmentDetails.date
-            let currentDate = this.getCurrentDate()
-
-
-            if(this.checkIfDatesAreSame(appointmentDate, currentDate) === true){
-                if(this.getCurrentHour() < appointmentDetails.start_time){
-
-                    let chatLink = process.env.chatSite + appointmentDetails.meetingId
-                    return 'You have an appointment today at ' + 
-                    appointmentDetails.start_time + 
-                    "  <a href='" + chatLink + "' target ='_blank'>" + chatLink  
-
-
-                }//end of if there is time for meeting
-                else{
-                    return 'You missed your appointment'
-                }
-            }//end  of if dates are same
-            else{
-                return 'Today No appointment'
+            if(appointmentDetails === null || appointmentDetails === undefined){
+                return 'You do not have any appointments today.'
             }
+            else{
+                let appointmentDate = appointmentDetails.date
+                let currentDate = this.getCurrentDate()
+
+
+                if(this.checkIfDatesAreSame(appointmentDate, currentDate) === true){
+                    if(this.getCurrentHour() < appointmentDetails.start_time){
+
+                        let chatLink = process.env.chatSite + appointmentDetails.meetingId
+                        return 'You have an appointment today at ' + 
+                        appointmentDetails.start_time + 
+                        "  <a href='" + chatLink + "' target ='_blank'>" + chatLink  
+
+
+                    }//end of if there is time for meeting
+                    else{
+                        return 'You missed your appointment'
+                    }
+                }//end  of if dates are same
+                else{
+                    return 'Today No appointment'
+                }
+            }//end of there are appointments today
         } catch (error) {
             winston.error(error.stack)
             return 'There was an error, we are working on it!!'
