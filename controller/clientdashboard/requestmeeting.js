@@ -10,7 +10,7 @@ router.get('/',async (req, res, next)=>{
     }
     else
     {
-        res.render('clientdashboard/requestmeeting')
+        res.render('clientdashboard/requestMeeting')
     }
 })
 
