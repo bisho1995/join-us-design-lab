@@ -57,12 +57,17 @@ module.exports.getAppointmentDetailsForClientId = (id)=>{
                 reject(err)
             }
             else{
-                resolve({
-                    date: docs.date,
-                    start_time: docs.start_time,
-                    end_time: docs.end_time,
-                    meetingId: docs.meetingId
-                })
+                if(docs === null || docs == undefined){
+                    resolve(docs)
+                }
+                else{
+                    resolve({
+                        date: docs.date,
+                        start_time: docs.start_time,
+                        end_time: docs.end_time,
+                        meetingId: docs.meetingId
+                    })
+                }
             }
         })        
     })
