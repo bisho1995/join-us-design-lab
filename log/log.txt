@@ -1802,3 +1802,13 @@
 {"$__":{"strictMode":true,"inserting":true,"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":218,"2":207,"3":130,"4":181,"5":198,"6":65,"7":51,"8":105,"9":44,"10":248,"11":111}},"wasPopulated":false,"activePaths":{"paths":{"password":"require","email":"require","name":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"password":true,"email":true,"name":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"authKeys":[],"_id":{"$ref":"$[\"$__\"][\"_id\"]"},"name":"jkhbh","email":"bhjvhj@busiu.com","password":"mimo","__v":0},"level":"info","message":"","timestamp":1524289410704}
 {"$__":{"strictMode":true,"inserting":true,"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":218,"2":223,"3":27,"4":181,"5":198,"6":65,"7":51,"8":105,"9":44,"10":248,"11":113}},"wasPopulated":false,"activePaths":{"paths":{"password":"require","email":"require","name":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"password":true,"email":true,"name":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"authKeys":[],"_id":{"$ref":"$[\"$__\"][\"_id\"]"},"name":"eiovfh","email":"nkcdkc@nvjnkv.com","password":"mimo","__v":0},"level":"info","message":"","timestamp":1524293403399}
 {"level":"error","message":"disconnected from database","timestamp":1524297225890}
+{"level":"info","message":"connected to database","timestamp":1524298582950}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1524298583785}
+{"level":"info","message":"client schema successfully indexed","timestamp":1524298583792}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1524298583795}
+{"level":"error","message":"disconnected from database","timestamp":1524298616327}
+{"level":"info","message":"connected to database","timestamp":1524298620366}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1524298620377}
+{"level":"info","message":"client schema successfully indexed","timestamp":1524298620379}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1524298620380}
+{"level":"error","message":"disconnected from database","timestamp":1524298635109}

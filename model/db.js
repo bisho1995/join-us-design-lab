@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 var winston = require('../shared/logger');
-var connection = mongoose.createConnection("mongodb://codeworks0301:password@ds119449.mlab.com:19449/juyrna","");
+var connection = mongoose.createConnection("mongodb://localhost:27017/juyrna","");
 
 connection.on('connected', ()=>{
     winston.info('connected to database');
