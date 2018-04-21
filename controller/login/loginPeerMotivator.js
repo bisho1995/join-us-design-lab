@@ -1,4 +1,4 @@
-var pm = require('../../model/users/peermotivators/peermotivator');
+        var pm = require('../../model/users/peermotivators/peermotivator');
 var winston = require('../../shared/logger');
 
 module.exports = class LoginPM {

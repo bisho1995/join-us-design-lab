@@ -28,6 +28,8 @@ module.exports.registerUser = function(req, res, next){
 }//end of registeruser
 
 
+module.exports.getRequestData = getRequestData
+
 function getRequestData(object){
     return {
         name: object.full_name,

@@ -275,3 +275,8 @@
 {"level":"info","message":"connected to database","timestamp":1523201066341}
 {"level":"info","message":"client schema successfully indexed","timestamp":1523201067788}
 {"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523201068079}
+{"level":"info","message":"connected to database","timestamp":1523334145353}
+{"level":"info","message":"client schema successfully indexed","timestamp":1523334147447}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1523334147744}
+{"level":"info","message":"an error occured in the database connection ","timestamp":1524303627164}
+{"level":"error","message":"MongoNetworkError: failed to connect to server [ds119449.mlab.com:19449] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND ds119449.mlab.com ds119449.mlab.com:19449]\n    at Pool.<anonymous> (C:\\Users\\user\\Desktop\\join-us-design-lab\\node_modules\\mongodb-core\\lib\\topologies\\server.js:503:11)\n    at Pool.emit (events.js:180:13)\n    at Connection.<anonymous> (C:\\Users\\user\\Desktop\\join-us-design-lab\\node_modules\\mongodb-core\\lib\\connection\\pool.js:326:12)\n    at Object.onceWrapper (events.js:272:13)\n    at Connection.emit (events.js:180:13)\n    at Socket.<anonymous> (C:\\Users\\user\\Desktop\\join-us-design-lab\\node_modules\\mongodb-core\\lib\\connection\\connection.js:245:50)\n    at Object.onceWrapper (events.js:272:13)\n    at Socket.emit (events.js:180:13)\n    at emitErrorNT (internal/streams/destroy.js:64:8)\n    at process._tickCallback (internal/process/next_tick.js:178:19)","timestamp":1524303627164}

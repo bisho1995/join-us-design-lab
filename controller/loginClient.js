@@ -12,15 +12,9 @@ module.exports = class LoginUser {
      * If it is valid it returns true
      * @param {string} email The email id of the client
      */
-    checkIfEmailExists(email){
-        return new Promise((resolve, reject)=>{
-            client.doesEmailExist(email)
-                .then(data=>{
-                    resolve(data)
-                })
-                .catch(err=>reject(err))
-        });
-    }
+     
+        }
+    
 
 
     /**
@@ -31,7 +25,7 @@ module.exports = class LoginUser {
      * which will be used for verification we are expecting email id 
      * and password
      */
-    validateCredentials(data){
+    validateCredentials(data)
         return new Promise((resolve, reject)=>{
             client.getPasswordForEmail(data.email)
                 .then(doc=>
@@ -45,6 +39,6 @@ module.exports = class LoginUser {
                     reject(err)
                 })
         })
-    }
+    
 
-}
+
