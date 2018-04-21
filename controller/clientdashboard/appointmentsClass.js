@@ -7,6 +7,10 @@ const moment = require('moment')
 class Appointments {
 
 
+    /**
+     * 
+     * @param {String} email The email id of the client
+     */
     constructor(email){
         this.email = email
         this.clientId = null
@@ -87,6 +91,13 @@ class Appointments {
     }
 
 
+    /**
+     * check for existing appointments 
+     * then if there are appointments 
+     * then display them 
+     * if there are appointments then
+     * display that with the link to hubble
+     */
     async checkAppointment(){
         try {
             let appointmentDetails  =await this.getAppointmentDetails()
