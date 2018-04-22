@@ -1,0 +1,7 @@
+{"level":"info","message":"connected to database","timestamp":1524311104002}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1524311105658}
+{"level":"info","message":"client schema successfully indexed","timestamp":1524311106721}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1524311106721}
+{"level":"error","message":"disconnected from database","timestamp":1524311389159}
+{"level":"info","message":"connected to database","timestamp":1524311397776}
+{"level":"error","message":"disconnected from database","timestamp":1524311398200}
