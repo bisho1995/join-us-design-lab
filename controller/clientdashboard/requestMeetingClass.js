@@ -84,24 +84,44 @@ module.exports = class RequestMeeting{
      * @param {Number} end The prefered end time of the meeting
      */
     getPmAvailableWithingRange(start, end){
-        return new Promise((resolve, reject)=>{
-            pm.getPmWithinRange(start, end)
-            .then(docs=>{
-                docs = docs.map(doc=>{
-                    return {
-                        id: doc._id,
-                        name: doc.name
-                    }
+        if(arguments.length != 2){
+            throw new Error('Function expects two arguments')
+        }
+        else if(end < start){
+            throw new Error('End time has to be greater than or equal to start time')
+        }
+        else if(end < 0 || start < 0){
+            throw new Error('End time and start time has to be more than 0')
+        }
+        else if(end > 48 || start > 48){
+            throw new Error('End time and start time has to be less than 48')
+        }
+        else{
+            return new Promise((resolve, reject)=>{
+                pm.getPmWithinRange(start, end)
+                .then(docs=>{
+                    docs = docs.map(doc=>{
+                        return {
+                            id: doc._id,
+                            name: doc.name
+                        }
+                    })
+                    resolve(docs)
                 })
-                resolve(docs)
+                .catch(err=>{
+                    winston.error(err.stack)
+                    reject(err)
+                })
             })
-            .catch(err=>{
-                winston.error(err.stack)
-                reject(err)
-            })
-        })
+        }
     }
 
+    /**
+     * This method initializes the default
+     * class variables
+     * @param {object} data The information of the meeting details, start time or end time like this
+     * @param {string} emailOfClient the email id of the client
+     */
     async OnInit(data, emailOfClient){
         this.start_time = parseInt(data.start_time)
         this.end_time = parseInt(data.end_time)
