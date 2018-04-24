@@ -1,3 +1,20 @@
 extends ../shared/layout  
 block content
-    h1 PM appointments work
+    h1 Appointments
+
+    if response.isAppointment == false
+        b No appointments today
+    else
+        ul
+            for appointment in response.appointments
+                li  
+                    p 
+                        | Appointment starts at  
+                        b #{appointment.start} 
+                        span(class="link") 
+                            | #{appointment.link}
+                        button(class="btn btn-primary") Take notes
+
+    script
+        include ../assets/js/pmAppointments.js
+
