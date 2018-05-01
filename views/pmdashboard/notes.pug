@@ -1,0 +1,14 @@
+extends ../shared/layout 
+block content
+    div
+        h2 Add a note 
+        form(method="post" action='')
+            textarea(name="note" class="form-control" autofocus)
+            br
+            input(type="submit" value="save" class="btn btn-primary")
+    
+    div
+        h2 Previous notes
+        ul 
+            for note in notes 
+                li #{note}
