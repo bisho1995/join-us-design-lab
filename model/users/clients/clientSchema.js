@@ -19,7 +19,12 @@ var schema = new mongoose.Schema({
     authKeys: {
         type: Array,
         default: []
-    }
+    },
+    notes: [{
+        type: String,
+        default: "",
+        trim: true
+    }]
 });
 
 
