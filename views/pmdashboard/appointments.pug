@@ -12,8 +12,8 @@ block content
                         | Appointment starts at  
                         b #{appointment.start} 
                         span(class="link") 
-                            | #{appointment.link}
-                        button(class="btn btn-primary") Take notes
+                            | <button class="btn btn-success" data-urlMeeting="#{appointment.link}">Chat</button> &nbsp;
+                        button(class="btn btn-primary notes") Take notes
 
     script
         include ../assets/js/pmAppointments.js
