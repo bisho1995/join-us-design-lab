@@ -548,3 +548,4 @@
 {"level":"info","message":"Successfully indexed appointments schema","timestamp":1525335493504}
 {"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525335494678}
 {"level":"info","message":"client schema successfully indexed","timestamp":1525335494695}
+{"level":"error","message":"disconnected from database","timestamp":1525335898907}
