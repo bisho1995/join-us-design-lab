@@ -1,5 +1,7 @@
 let router = require('express').Router()
 
+const RouteGuard = require('../shared/validateAuthentication')
+
 let findcounselor = require('./clientdashboard/findcounselor')
 let requestMeeting = require('./clientdashboard/requestmeeting')
 let appointments =  require('./clientdashboard/appointments')
@@ -10,8 +12,12 @@ router.use('/request-meeting', requestMeeting)
 router.use('/appointments', appointments)
 router.use('/logout', logout)
 
-router.get('/', (req, res, next)=>{
-    res.render('clientdashboard/index')
+router.get('/', async (req, res, next)=>{
+    let routeGuard = new RouteGuard(req.signedCookies, 0)
+    if(await routeGuard.checkAuthentication() === true)
+        res.render('clientdashboard/index')
+    else 
+        res.redirect('/login')
 })
 
 module.exports = router

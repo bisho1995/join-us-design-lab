@@ -1,12 +1,19 @@
 'use strict'
 const router = require('express').Router()
 
-router.get('/', (req, res, next)=>{
-    console.log(req.signedCookies)
-    res.clearCookie("token")
-    res.clearCookie("email")
+const RouteGuaud = require('../../shared/validateAuthentication')
 
-    res.redirect('/')
+router.get('/', async (req, res, next)=>{
+    let routeGuard = new RouteGuaud(req.signedCookies, 1)
+    if(await routeGuard.checkAuthentication() === true){
+        res.clearCookie("token")
+        res.clearCookie("email")
+
+        res.redirect('/')
+    }
+    else{
+        res.redirect('../login')
+    }
 })
 
 module.exports = router
