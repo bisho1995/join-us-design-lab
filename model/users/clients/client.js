@@ -107,3 +107,42 @@ module.exports.getIdFromEmail = (email)=>{
 }
 
 
+module.exports.getAllNotes = (id)=>{
+    return new Promise((resolve, reject)=>{
+        model.findOne({_id: id}, (err, docs)=>{
+            if(err){
+                reject(err)
+            }
+            else{
+                if(docs === null || docs === undefined)
+                    resolve(undefined)
+                else{
+                    resolve(docs.notes)
+                }
+            }
+        })
+    })
+}
+
+
+
+module.exports.addNote = (id, note)=>{
+    return new Promise((resolve, reject)=>{
+        model.findOne({_id: id}, (err, doc)=>{
+            if(err){
+                reject(err)
+            }
+            else{
+                doc.notes = doc.notes.concat([note])
+                doc.save((err, doc)=>{
+                    if(err){
+                        reject(err)
+                    }
+                    else{
+                        resolve(doc)
+                    }
+                })
+            }
+        })
+    })
+}

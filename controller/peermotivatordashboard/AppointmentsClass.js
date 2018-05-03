@@ -22,7 +22,11 @@ class Appointments {
             return response
         } catch (error) {
             winston.error(error.stack)
-            return 'There was an error !!!'
+            return {
+                error: true,
+                isAppointment: false,
+                appointments: []
+            }
         }
     }
 
@@ -58,10 +62,11 @@ class Appointments {
             }).map(doc=>{
                 return {
                     start: doc.slot_timings.start,
-                    meetingId: doc.meetingId
+                    meetingId: doc.meetingId,
+                    client_id: doc.client_id 
                 }
             })
-            console.log(docs)
+            //console.log(docs)
             return docs
         } catch (error) {
             winston.error(error.stack)
@@ -102,20 +107,37 @@ class Appointments {
             
 
             if(appointmentDetails.length === 0){
-                return 'No appointments'
+                return {
+                    isAppointment: false,
+                    appointments: [],
+                    error: false
+                }
             }
             else{
+                let appointments = []
                 let str = ""
                 appointmentDetails.forEach(app=>{
-                    let link = process.env.chatSite + app.meetingId
-                    str+="Meeting at <b>"+ app.start +"</b> click <a href='"+ link + "' target='_blank'>" + link + "</a><br>"
+                    let obj = {
+                        link: process.env.chatSite + app.meetingId,
+                        start: app.start,
+                        client_id: app.client_id
+                    }
+                    appointments.push(obj)
                 })
-                return str
+                return {
+                    error: false,
+                    isAppointment: true,
+                    appointments: appointments
+                }
             }
 
         } catch (error) {
             winston.error(error.stack)
-            return 'There was an error, we are working on it!!'
+            return {
+                isAppointment: false,
+                appointments: [],
+                error: true
+            }
         }
     }//end of checkAppointment
 
