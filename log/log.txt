@@ -451,3 +451,100 @@
 {"level":"info","message":"client schema successfully indexed","timestamp":1524849988144}
 {"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1524849988146}
 {"level":"error","message":"disconnected from database","timestamp":1524850008497}
+{"level":"info","message":"connected to database","timestamp":1525332421473}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525332422885}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525332424070}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525332424072}
+{"level":"error","message":"TypeError: Cannot read property 'reverse' of undefined\n    at Notes.getAllNotesOfClient (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\peermotivatordashboard\\NotesClass.js:63:26)\n    at <anonymous>","timestamp":1525332557249}
+{"level":"info","message":"connected to database","timestamp":1525332576093}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525332577525}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525332578634}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525332578638}
+{"level":"info","message":"connected to database","timestamp":1525333751046}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525333753664}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525333753688}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525333753692}
+{"level":"info","message":"connected to database","timestamp":1525333775872}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525333777366}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525333778465}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525333778469}
+{"level":"info","message":"connected to database","timestamp":1525333804139}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525333805582}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525333806660}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525333806681}
+{"level":"info","message":"connected to database","timestamp":1525333833146}
+{"level":"info","message":"connected to database","timestamp":1525333839071}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525333841806}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525333841810}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525333841816}
+{"level":"error","message":"ReferenceError: client_id is not defined\n    at docs.filter.map.doc (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\peermotivatordashboard\\AppointmentsClass.js:67:32)\n    at Array.map (<anonymous>)\n    at Appointments.getAppointmentDetails (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\peermotivatordashboard\\AppointmentsClass.js:63:16)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:182:7)","timestamp":1525333842955}
+{"level":"error","message":"TypeError: Cannot read property 'length' of undefined\n    at Appointments.checkAppointment (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\peermotivatordashboard\\AppointmentsClass.js:110:35)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:182:7)","timestamp":1525333842958}
+{"level":"info","message":"connected to database","timestamp":1525333884925}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525333887512}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525333888462}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525333889301}
+{"level":"info","message":"connected to database","timestamp":1525333904903}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525333907553}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525333907561}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525333909414}
+{"level":"info","message":"connected to database","timestamp":1525333998677}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525334000147}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525334001268}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525334001271}
+{"level":"info","message":"connected to database","timestamp":1525334017482}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525334020079}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525334020091}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525334020094}
+{"level":"info","message":"connected to database","timestamp":1525334047358}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525334050069}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525334051034}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525334051881}
+{"level":"info","message":"connected to database","timestamp":1525334068008}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525334069465}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525334070612}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525334070619}
+{"level":"error","message":"TypeError: Cannot read property 'reverse' of undefined\n    at Notes.getAllNotesOfClient (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\peermotivatordashboard\\NotesClass.js:63:26)\n    at <anonymous>","timestamp":1525334244509}
+{"level":"info","message":"connected to database","timestamp":1525334370927}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525334373473}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525334373475}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525334373489}
+{"level":"info","message":"connected to database","timestamp":1525334390347}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525334393033}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525334393060}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525334394904}
+{"level":"info","message":"connected to database","timestamp":1525334445946}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525334448581}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525334448586}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525334450373}
+{"level":"info","message":"connected to database","timestamp":1525334504196}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525334506770}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525334506773}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525334508650}
+{"level":"error","message":"TypeError: Cannot read property 'reverse' of undefined\n    at Notes.getAllNotesOfClient (C:\\Users\\bisho\\Desktop\\join-us-design-lab\\controller\\peermotivatordashboard\\NotesClass.js:63:26)\n    at <anonymous>","timestamp":1525334524783}
+{"level":"info","message":"connected to database","timestamp":1525334581240}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525334583785}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525334583797}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525334583803}
+{"level":"info","message":"connected to database","timestamp":1525334627164}
+{"level":"info","message":"connected to database","timestamp":1525334631161}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525334633763}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525334633774}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525334635847}
+{"level":"info","message":"connected to database","timestamp":1525334650910}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525334653540}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525334654506}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525334655647}
+{"level":"info","message":"connected to database","timestamp":1525335429616}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525335431074}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525335432175}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525335432177}
+{"level":"info","message":"connected to database","timestamp":1525335462351}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525335463791}
+{"level":"info","message":"connected to database","timestamp":1525335467895}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525335470482}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525335470486}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525335470489}
+{"level":"info","message":"connected to database","timestamp":1525335492090}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525335493504}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525335494678}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525335494695}
