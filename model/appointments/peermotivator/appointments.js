@@ -2,6 +2,12 @@ let appointments = require('./schema')
 const winston = require('../../../shared/logger')
 
 
+/**
+ * Get an array of the list of appointments
+ * of a peermotivator
+ * @param {String} date The date of the appointments
+ * @param {String} id The id of the client
+ */
 module.exports.getAppointmentListForPmWithDate = (date, id)=>{
     return new Promise((resolve, reject)=>{
         appointments.findOne({ date: date }, (err, doc)=>{

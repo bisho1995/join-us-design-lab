@@ -125,7 +125,7 @@ module.exports = class RequestMeeting{
     async OnInit(data, emailOfClient){
         this.start_time = parseInt(data.start_time)
         this.end_time = parseInt(data.end_time)
-        this.date = data.date
+        this.date = data.date.replace(new RegExp('-', 'g'), '/')
         this.emailOfClient = emailOfClient
 
 
@@ -234,7 +234,7 @@ module.exports = class RequestMeeting{
      * @param {String} name 
      */
     async addAppointmentForClient(id, date, start_time, end_time, name, meetingId){
-        date = moment(date).format('YYYY/MM/DD')
+        //date = moment(date).format('YYYY/MM/DD')
         return new Promise(async (resolve, reject)=>{
             try {
                 await clientAppointment.addAppointment(id, date, start_time, end_time, name, meetingId)   
@@ -247,7 +247,7 @@ module.exports = class RequestMeeting{
     }
 
     addAppointmentForPeermotivator(date,clientId, id, name, start_time, end_time, meetingId){
-        date = moment(date).format('YYYY/MM/DD')
+        //date = moment(date).format('YYYY/MM/DD')
         return new Promise((resolve, reject)=>{
             pmAppointment.addAppointment(date,clientId, id, name, start_time, end_time, meetingId)
             .then(data=>{
@@ -292,6 +292,8 @@ module.exports = class RequestMeeting{
         appointmentList.forEach(app=>{
             bookedSlotsOfPm[app.start] = true
         })
+
+
         for(let i = 0 ; i < availableSlotsOfClient.length ; i++){
             let slot = availableSlotsOfClient[i]
             if(slot in bookedSlotsOfPm === false){
