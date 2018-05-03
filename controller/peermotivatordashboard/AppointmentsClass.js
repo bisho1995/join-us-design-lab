@@ -62,7 +62,8 @@ class Appointments {
             }).map(doc=>{
                 return {
                     start: doc.slot_timings.start,
-                    meetingId: doc.meetingId
+                    meetingId: doc.meetingId,
+                    client_id: doc.client_id 
                 }
             })
             //console.log(docs)
@@ -116,10 +117,10 @@ class Appointments {
                 let appointments = []
                 let str = ""
                 appointmentDetails.forEach(app=>{
-                    console.log(app)
                     let obj = {
                         link: process.env.chatSite + app.meetingId,
                         start: app.start,
+                        client_id: app.client_id
                     }
                     appointments.push(obj)
                 })
