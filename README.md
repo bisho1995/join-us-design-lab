@@ -1,9 +1,24 @@
 [![Build Status](https://travis-ci.org/bisho1995/join-us-design-lab.svg?branch=master)](https://travis-ci.org/bisho1995/join-us-design-lab)
 
-https://flatuicolors.com/palette/cn
+# Join Us You Are Not Alone
 
-#Time Issue
-Suppose the start time is 1 to 12 then no problem
-from 15 to 22 no problem
-but from 23 to 5 what to do ?
-I am suggesting do something like 24 + 5
+## Steps to install the project
+
+This tutorial assumes you have git installed in your system. Apart from that it is assumed that you have node.js and npm installed in your system. 
+1. Clone the repo 
+
+git clone https://github.com/bisho1995/join-us-design-lab.git
+
+2. cd into the repo
+
+3. Then install the necessary modules
+
+  npm install
+
+4. Start the server with 
+
+  npm start
+
+5. To run the tests
+
+  npm run test
