@@ -128,12 +128,41 @@ module.exports = class RequestMeeting{
         this.date = data.date.replace(new RegExp('-', 'g'), '/')
         this.emailOfClient = emailOfClient
 
+        
 
-        this.formatEndDateRelativeToStartDate()
-        let response = await this.startSlotFindingAndAllocationProcess(this.start_time, this.end_time, this.date)
-        return response
+        if(this.checkIfInputDataIsValid() === true){
+            this.formatEndDateRelativeToStartDate()
+            let response = await this.startSlotFindingAndAllocationProcess(this.start_time, this.end_time, this.date)
+            return response
+        }
+        else{
+            let response = 'Invalid date or start time, note that you cannot choose an earlier date or a start time earlier than current hour if you are selecting today as your meeting date.'
+            return response
+        }
         
     }//end of OnInit
+
+    /**
+     * check if date for meeting is not set
+     * in the past or time is also not in
+     * the past.
+     */
+    checkIfInputDataIsValid(){
+        let currDate = Date.parse(moment().format('YYYY/MM/DD'))
+        let givenDate = Date.parse(this.date) 
+        if(givenDate < currDate){
+            console.log('earlier date')
+            return false
+        }
+        else if(givenDate == currDate){
+            if(this.start_time < new Date().getHours()){
+                console.log('invalid start time')
+                return false
+            }
+        }
+        else 
+            return true
+    }
 
 
     async startSlotFindingAndAllocationProcess(start_time, end_time, date){

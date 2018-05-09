@@ -3,29 +3,67 @@ var router = require('express').Router()
 const pm = require('../../model/users/peermotivators/peermotivator')
 const winston = require('../../shared/logger')
 
+const { check, validationResult } = require('express-validator/check');
+const { matchedData, sanitize } = require('express-validator/filter');
+
+
+const expressValidator = [
+    check('email')
+        .isEmail()
+        .withMessage('must be an email'),
+    check('password', 'Not a valid password')
+        .isLength({min:8, max: 25})
+        .exists(),
+    check('confirm_password', 'Confirm password doesnot match password')
+        .isLength({min:8, max: 25})
+        .exists()
+        .custom((value, { req }) => {
+            return value === req.body.password
+		}),
+	check('start_time', 'The start time and the end time has to be within 0 and 24')
+		.exists().
+		custom(value=>{
+			return value >= 0 && value <= 24
+		}),
+	check('end_time', 'The end time and the end time has to be within 0 and 24')
+		.exists()
+		.custom(value=>{
+			return value >= 0 && value <= 24
+		})
+]
+
+
+
 router.get('/', (req, res, next)=>{
 	res.render('admindashboard/registerpm')
 });
 
-router.post('/', (req, res, next)=>{
-	let data = makeDataFromRequestBody(req.body)
+router.post('/', expressValidator, (req, res, next)=>{
+
+	const errors = validationResult(req);
+    if(!errors.isEmpty()){
+        res.status(422).send(errors.mapped())
+	}
+	else{
+		let data = makeDataFromRequestBody(req.body)
 
 
-	pm.doesEmailExist(data.email)
-	.then(emailPresent=>{
-		if(emailPresent === true){
-			res.send('The email is already taken.')
-		}
-		else{
-			registerNewPm(data)
-				.then(data=>res.send(data))
-		}
-	})
-	.catch(err=>
-		{
-			winston.error(err.stack)
-			res.send('There was an error in checking if the email already exists.')
+		pm.doesEmailExist(data.email)
+		.then(emailPresent=>{
+			if(emailPresent === true){
+				res.send('The email is already taken.')
+			}
+			else{
+				registerNewPm(data)
+					.then(data=>res.send(data))
+			}
 		})
+		.catch(err=>
+			{
+				winston.error(err.stack)
+				res.send('There was an error in checking if the email already exists.')
+			})	
+	}
 });
 
 

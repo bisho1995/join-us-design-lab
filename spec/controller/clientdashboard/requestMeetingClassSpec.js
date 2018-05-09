@@ -1,3 +1,6 @@
+const moment = require('moment')
+
+
 describe("Request meeting ", ()=>{
     let RequestMeeting = require('../../../controller/clientdashboard/requestMeetingClass')
     let requestMeeting
@@ -6,7 +9,7 @@ describe("Request meeting ", ()=>{
     beforeEach(()=>{
         requestMeeting =  new RequestMeeting()
         requestMeeting.OnInit({
-            date: new Date(),
+            date: moment().format('YYYY/MM/DD'),
             start_time: 14,
             end_time: 19 
         }, "bishoatiem@gmail.cim")
@@ -30,7 +33,7 @@ describe("Request meeting ", ()=>{
         it("wrong email id",async (done)=>{
             let requestMeeting1 =  new RequestMeeting()
             requestMeeting1.OnInit({
-                date: new Date(),
+                date: moment().format('YYYY/MM/DD'),
                 start_time: 14,
                 end_time: 19 
             }, "")
@@ -50,7 +53,7 @@ describe("Request meeting ", ()=>{
         it("end time less than start time",async (done)=>{
             let requestMeeting1 =  new RequestMeeting()
             requestMeeting1.OnInit({
-                date: new Date(),
+                date: moment().format('YYYY/MM/DD'),
                 start_time: 14,
                 end_time: 19 
             }, "")
@@ -66,7 +69,7 @@ describe("Request meeting ", ()=>{
         it("start time and end time should be more than 0", (done)=>{
             let requestMeeting1 =  new RequestMeeting()
             requestMeeting1.OnInit({
-                date: new Date(),
+                date: moment().format('YYYY/MM/DD'),
                 start_time: 14,
                 end_time: 19 
             }, "")
