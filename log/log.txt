@@ -1166,3 +1166,8 @@
 {"level":"info","message":"client schema successfully indexed","timestamp":1525884629229}
 {"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525884629259}
 {"level":"error","message":"disconnected from database","timestamp":1525884650007}
+{"level":"info","message":"connected to database","timestamp":1525884759504}
+{"level":"info","message":"Successfully indexed appointments schema","timestamp":1525884762036}
+{"level":"info","message":"client schema successfully indexed","timestamp":1525884762040}
+{"level":"info","message":"Peermotivator schema successfully indexed","timestamp":1525884762043}
+{"level":"info","message":"connected to database","timestamp":1525884780613}
