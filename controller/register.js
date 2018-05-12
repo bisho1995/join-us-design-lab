@@ -4,6 +4,12 @@ var registerUser = require('./register/RegisterUser');
 const { check, validationResult } = require('express-validator/check');
 const { matchedData, sanitize } = require('express-validator/filter');
 
+/**
+ * Issue #21, #22, #23
+ * Added validation to check for
+ * password length
+ * passwords match
+ */
 const expressValidator = [
     check('email')
         .isEmail()

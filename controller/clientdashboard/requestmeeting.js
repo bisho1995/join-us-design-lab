@@ -4,6 +4,10 @@ const requestMeeting = new RequestMeeting()
 const RouteGuard = require('../../shared/validateAuthentication')
 
 router.get('/',async (req, res, next)=>{
+    /**
+     * issue #3, #15 adding route guard
+     * role based content access initiated 
+     */
     let routeGuard = new RouteGuard(req.signedCookies, 0)
     if(await routeGuard.checkAuthentication() === false){
         res.redirect('../login')
@@ -15,6 +19,10 @@ router.get('/',async (req, res, next)=>{
 })
 
 router.post('/',async (req, res, next)=>{
+    /**
+     * issue #3 adding route guard
+     * role based content access initiated 
+     */
     let routeGuard = new RouteGuard(req.signedCookies, 0)
     if(await routeGuard.checkAuthentication === false){
         res.redirect('../login')

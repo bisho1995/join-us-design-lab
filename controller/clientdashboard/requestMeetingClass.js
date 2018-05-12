@@ -129,7 +129,13 @@ module.exports = class RequestMeeting{
         this.emailOfClient = emailOfClient
 
         
-
+        /**
+         * Added code to check if 
+         * client is trying to
+         * issue a meeting on a 
+         * past day.
+         * issue #27
+         */
         if(this.checkIfInputDataIsValid() === true){
             this.formatEndDateRelativeToStartDate()
             let response = await this.startSlotFindingAndAllocationProcess(this.start_time, this.end_time, this.date)
@@ -158,6 +164,9 @@ module.exports = class RequestMeeting{
             if(this.start_time < new Date().getHours()){
                 console.log('invalid start time')
                 return false
+            }
+            else {
+                return true
             }
         }
         else 
